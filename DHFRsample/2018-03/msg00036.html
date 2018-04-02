@@ -1,0 +1,1308 @@
+<!DOCTYPE html>
+<html lang="en-US" xml:lang="en-US">
+<!-- $Id: main.tt2 11869 2015-01-19 12:38:09Z etiennemeleard $ -->
+
+<!-- Mirrored from groupes.renater.fr/sympa/arc/dh/2018-03/msg00036.html by HTTraQt Website Copier/1.x [Karbofos 2012-2017] jeu., 29 mars 2018 22:39:02 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+<meta charset="UTF-8" />
+<meta name="generator" content="Sympa 6.2.13" />
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+<title> dh - Re: [DH] Un atelier de prosopographie - arc </title>
+
+<!-- $Id: head_ui.tt2 11868 2015-05-21 12:36:46Z olivierlumineau $ -->
+<!-- Jquery-ui -->
+<link rel="stylesheet" href="../../../../static-sympa/external/jquery-ui.css" />
+
+<!-- Jqplot -->
+<link rel="stylesheet" href="../../../../static-sympa/external/jquery.jqplot.css" />
+
+<!-- Font css -->
+<link href='../../../../../fonts.googleapis.com/css277c.css?family=Raleway:400,700,900,200' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="../../../../static-sympa/external/font-awesome/css/font-awesome.css" />
+<link rel="stylesheet" href="../../../../static-sympa/fonts/foundation-icons/foundation-icons.css" />
+
+<!-- Foundation -->
+<link rel="stylesheet" href="../../../../static-sympa/external/foundation/css/foundation.css" />
+<link rel="stylesheet" href="../../../../static-sympa/external/foundation/css/normalize.css" />
+<link rel="stylesheet" href="../../../../static-sympa/external/foundation/css/responsive-tables.css" />
+
+<style>
+  select[multiple], select[size] { height: auto; background-image: none; }
+</style>
+
+
+<link rel="stylesheet" href="../../../../static-sympa/css/groupes.renater.fr/stylef0dc.css?version=6.2.13" media="screen" title="Sympa CSS" />
+
+
+<style>
+  #loadingText span:before {
+    content: "Please Wait...";
+  }
+</style>
+
+<!-- $Id: css_ie.tt2 11846 2015-01-15 04:15:17Z sikeda $ -->
+
+<!-- Specific css for IE -->
+
+<!--[if lte IE 8]>
+<style type="text/css">
+
+/* Workaround for "noscript ghost" bug */
+noscript {
+          display: block;
+          }
+
+</style>
+<![endif]-->
+
+<!--[if IE 7]>
+<style type="text/css">
+
+#subnav {
+          position:absolute;
+	  left:25em;
+          }
+
+#bandeau_top .login .MainMenuLinks {
+	                             margin-top:0.2em;
+           	                     }
+
+</style>
+<![endif]-->
+
+
+<!--[if  lte IE 7]>
+<style type="text/css">
+
+ul#MainMenuLinks {
+                   margin-left:-3em;
+                   }
+
+a.input {
+          padding: 0 0.3em;
+          }
+
+/* "vertical-align: baseline" aligns form fields on bottom of widgets */
+form input,
+form textarea,
+form select {
+             vertical-align: middle;
+             }
+.MainMenuLinks {
+                margin-bottom: 0.2em;
+                vertical-align: middle;
+                }
+
+/* Workaround for "peek-a-boo" bug. */
+a.MainMenuLinks,
+a.MainMenuLinks:hover,
+a.MainMenuLinksCurrentPage,
+a.MainMenuLinksCurrentPage:hover {
+                                  position: relative;
+                                  }
+
+</style>
+<![endif]-->
+
+
+
+<!--[if lte IE 6]>
+<style type="text/css">
+
+#logo {
+        position:absolute;
+        top:0.5em;
+        left:-5em;
+        z-index:510;
+        }
+
+#Stretcher {
+             width:99.5%;
+             }
+
+#subnav {
+          width:100%;
+	  background-color:#6679bb;
+          border:1px solid #e1e2e5;
+          border-width: 0 1px 0 0;
+          }
+
+#nav {
+       width:99%;
+       }
+
+#Footer {
+          margin: 0.5em 0.8em;
+          }
+
+#bandeau_top .login .MainMenuLinks {
+	                             margin-top:0;
+           	                     }
+
+
+</style>
+<![endif]-->
+
+<!-- end  css_ie.tt2 -->
+
+
+
+
+<!-- the following CSS have to be improved before to be used -->
+<!-- <link rel="stylesheet" href="/static-sympa/css/groupes.renater.fr/print.css" media="print" /> -->
+<!-- <link rel="alternative stylesheet" href="/static-sympa/css/groupes.renater.fr/fullPage.css" media="screen" title="View Full Page" /> -->
+<!-- <link rel="alternative stylesheet" href="/static-sympa/css/groupes.renater.fr/print-preview.css" media="screen" title="Print Preview" /> -->
+
+
+<link rel="shortcut icon" href="../../../../static-sympa/icons/groupes.renater.fr/favicon.png" />
+
+
+<!-- end head_ui.tt2 -->
+
+
+<!-- $Id: head_javascript.tt2 11868 2015-05-21 12:36:46Z olivierlumineau $ -->
+
+<script>
+<!--
+// this script only contains variable initializations.
+
+// Miscellaneous vars
+var path_cgi = 'https://groupes.renater.fr/sympa/';
+var lang = 'en-US';
+//-->
+</script>
+
+<script>
+<!--
+// A few configuration settings
+var CROSSHAIRS_LOCATION = '../../../../static-sympa/icons/crosshairs.png';
+var HUE_SLIDER_LOCATION = '../../../../static-sympa/icons/h.png';
+var HUE_SLIDER_ARROWS_LOCATION = '../../../../static-sympa/icons/position.png';
+var SAT_VAL_SQUARE_LOCATION = '../../../../static-sympa/icons/sv.png';
+
+// Variables used by the calendar js.
+var pDefaut = { 
+	"mois" : "January:February:March:April:May:June:July:August:September:October:November:December".split(":"),
+	"jour" : "Sun:Mon:Tue:Wed:Thu:Fri:Sat".split(":"),
+	"jLib" : "Sunday:Monday:Tuesday:Wednesday:Thursday:Friday:Saturday".split(":"),
+	"titre" : "Calendar",
+	"aujourdhui" : "today",
+	"debutSemaine" : 0,                      /*debut de la semaine 0=lun,1=mar,...*/
+	"jPause" : {6:true,0:true},              /*jour de pause de la semaine (samedi & dimanche)*/
+	"jFeriee": {"1-1":"Jour de l'an","1-5":"Fête du travail","8-5":"Armistice 39-45","14-7":"Fête nationale","15-8":"Ascension","1-11":"Armistice 14-18","11-11":"Toussaint","25-12":"Noël"} ,
+	"moisMoins" : "<", "moisPlus" : ">",     /*navigation par mois*/ 
+	"anneeMoins" : "<<", "anneePlus" : ">>", /*navigation par annee*/
+	"format" : "%j-%m-%a",                   /*format de sortie : %j = jour, %m = mois, %a =année*/ 
+	"date" : null, "ddeb" : "", "dfin" : "",
+	"dateMin" : null, "dateMax" : null
+}
+
+
+var param_ddeb = {"dfin" : "date_fin", "titre" : "Start date" };
+var param_dfin = {"ddeb" : "date_deb", "titre" : "End date"  };
+
+var tempo = new Array(); /*gestion de la fermeture des calendriers quand on perd le focus*/
+var nomove={"TR":0,"CENTER":0,"B":0,"P":0,"U":0,"I":0,"DIV":0,"A":0,"FONT":0,"LI":0,"PRE":0,"SPAN":0,"SUB":0,"SUP":0,"FORM":0};
+//var nomove={"TD":0,"TABLE":0};
+
+if (!('universalistes' in window))
+    window.universalistes = {};
+
+
+window.universalistes.Utilities =  {
+    /**
+     * this function allos to manage storage of feedback showing dialog
+     * @param {type} enabled: False to disable the dialog showing at next load, 
+     * true otherwhise
+     */
+    manageFeedback: function(enabled){
+        if (this.isLocalStorageAvailable()){
+            window.localStorage.setItem('universalistes_feedback',String(enabled));
+        }else{
+            this.setCookie('universalistes_feedback',String(enabled));
+        }
+    },
+
+
+    /**
+     * Allows to know if localstorage is available
+     * @returns {Boolean} True if available, false otherwhise
+     */
+    isLocalStorageAvailable: function(){
+        return ('localStorage' in window) && (window['localStorage'] !== null);
+    },
+
+/**
+     * This function allows to know if the feedback dialog has to be shown
+     * 
+     * @returns Truez if needed, false otherwhise
+     */
+    showFeedback: function(){
+        var feedback = false;
+        if (this.isLocalStorageAvailable()){
+            feedback = window.localStorage.getItem('universalistes_feedback');
+        }else{
+            feedback =  this.getCookie('universalistes_feedback');
+        }
+        return (feedback === null || feedback !== "false");
+    },
+
+    /**
+     * This function allows to store a cookie.
+     * 
+     * @param {type} cname: The cookie name
+     * @param {type} cvalue: The value to store
+     * @param {type} exdays: Cookie duration
+     * @returns {undefined}
+     */
+    setCookie: function(cname, cvalue, exdays) {
+        if (!exdays) exdays=60;
+        
+        var d = new Date();
+        d.setTime(d.getTime() + (exdays*24*60*60*1000));
+        var expires = "expires="+d.toUTCString();
+        document.cookie = cname + "=" + cvalue + "; " + expires;
+    },
+    
+    getCookie: function (cname) {
+        var name = cname + "=";
+        var ca = document.cookie.split(';');
+        for(var i=0; i<ca.length; i++) {
+            var c = ca[i];
+            while (c.charAt(0)==' ') c = c.substring(1);
+            if (c.indexOf(name) == 0) return c.substring(name.length,c.length);
+        }
+        return "";
+    }
+
+};
+//-->
+</script>
+
+<!-- Now retrieving the javascript files -->
+
+<script src="../../../../static-sympa/external/jquery.js"></script>
+
+<script src="../../../../static-sympa/external/jquery-ui.js"></script>
+
+<script src="../../../../static-sympa/external/jquery.jqplot.min.js"></script>
+<script src="../../../../static-sympa/external/jqplot.categoryAxisRenderer.min.js"></script>
+<script src="../../../../static-sympa/external/jqplot.barRenderer.min.js"></script>
+<script src="../../../../static-sympa/external/jqplot.canvasAxisTickRenderer.min.js"></script>
+<script src="../../../../static-sympa/external/jqplot.canvasTextRenderer.min.js"></script>
+
+<script src="../../../../static-sympa/js/sympa.js"></script>
+
+<!-- Foundation and other ui adaptation -->
+<!--[if lt IE 9]>
+<script type="text/javascript" src="/static-sympa/external/html5shiv/html5shiv.js"></script>
+<![endif]-->
+<script type="text/javascript" src="../../../../static-sympa/external/respondjs/respond.min.js"></script>
+<script src="../../../../static-sympa/external/foundation/js/vendor/modernizr.js"></script>
+<script src="../../../../static-sympa/external/foundation/js/vendor/fastclick.js"></script>
+<script src="../../../../static-sympa/external/foundation/js/vendor/placeholder.js"></script>
+<!--<script src="/static-sympa/external/foundation/js/vendor/jquery.js"></script>-->
+<script src="../../../../static-sympa/external/foundation/js/foundation/foundation.js"></script>
+<script src="../../../../static-sympa/external/foundation/js/foundation/foundation.topbar.js"></script>
+<script src="../../../../static-sympa/external/foundation/js/foundation/foundation.reveal.js"></script>
+<script src="../../../../static-sympa/external/foundation/js/foundation/foundation.tooltip.js"></script>
+<script src="../../../../static-sympa/external/foundation/js/foundation/foundation.accordion.js"></script>
+<script src="../../../../static-sympa/external/foundation/js/foundation/responsive-tables.js"></script>
+<script>
+$(
+function () {
+    // Loading foundation
+    $(document).foundation({
+        topbar: {
+            back_text: '<i class="fa fa-undo"></i> Back'
+        }
+    });
+
+    // Manage feedback dialog
+    
+
+    /*Top Button*/ 
+    $(document).on( 'scroll', function(){
+
+            if ($(window).scrollTop() > 100) {
+                    $('.scroll-top-wrapper').addClass('show');
+            } else {
+                    $('.scroll-top-wrapper').removeClass('show');
+            }
+    });
+
+    $('.scroll-top-wrapper').on('click', scrollToTop);
+
+});
+
+/*Top Button*/
+function scrollToTop() {
+	verticalOffset = typeof(verticalOffset) != 'undefined' ? verticalOffset : 0;
+	element = $('body');
+	offset = element.offset();
+	offsetTop = offset.top;
+	$('html, body').animate({scrollTop: offsetTop}, 500, 'linear');
+}
+</script>
+
+
+
+<!-- end head_javascript.tt2 -->
+
+
+<!-- RSS chanel -->
+        <link rel="alternate" type="application/xml" title="RSS Latest messages" href="../../../rss/latest_arc/dh84ed?count=20"/>     <link rel="alternate" type="application/xml" title="RSS Latest documents" href="../../../rss/latest_d_read/dh84ed?count=20"/>   
+ <base  /> 
+
+</head>
+
+<body onload="">
+
+
+
+<a name="top"></a>
+<noscript><em>Please activate JavaScript in your web browser</em></noscript>
+
+
+
+    
+
+
+    <!-- $Id: header.tt2 11846 2015-05-19 04:15:17Z lumineau $ -->
+<header>
+
+<nav class="top-bar" data-topbar role="navigation">
+    <ul class="title-area show-for-large-up">
+        <li class="name">
+                
+                  <a href="https://groupes.renater.fr/sympa" title="Accueil"><img src="../../../../static-sympa/icons/groupes.renater.fr/universalistes.svg" alt="Universalistes logo"></a>
+                
+        </li>
+        <li class="toggle-topbar menu-icon"><a href="#"><span>Sympa Menu</span></a></li>
+    </ul>
+
+    <ul class="title-area hide-for-large-up">
+        <li class="name">
+                
+                  <a href="https://groupes.renater.fr/sympa" title="Accueil"><img src="../../../../static-sympa/icons/groupes.renater.fr/universalistes.svg" alt="Universalistes logo"></a>
+                
+        </li>
+        <li class="toggle-topbar menu-icon"><a href="#"><span>Sympa Menu</span></a></li>
+    </ul>
+<menu class="top-bar-section">
+  <ul class="right">
+        <!-- sympa menu start --> 
+                  
+	
+		<li class=""><a  href="https://groupes.renater.fr/sympa/home"><i class="fi-home"></i>  <label>Home<label></a></li>
+		
+	
+		
+	
+                
+                <li class="has-dropdown ">
+                    <a href="#"><i class="fa fa-search"></i> <label>Search for List(s)</label></a>
+                    <ul class="dropdown">
+                        <li><a href="https://groupes.renater.fr/sympa/search_list_request"><i class="fa fa-search"></i> Search form</a></li>
+                        <li><a class="" href="https://groupes.renater.fr/sympa/lists" onclick="show('loading'); hide('content-inner');"><i class="fa fa-list"></i> Index of Lists</a></li>
+                        <li><a href="https://groupes.renater.fr/sympa/lists_categories" target=""><i class="fa fa-sitemap"></i> Browse lists by categories</a>		
+                    </ul>
+                </li>
+                
+                <li class="has-dropdown ">
+                    <a href="#"><i class="fa fa-life-ring"></i> <label>Support</label></a>
+                    <ul class="dropdown">
+                        <li><a href="https://groupes.renater.fr/sympa/help" title="Documentation"><i class="fa fa-book"></i> Documentation</a></li>
+                        <li><a href="https://groupes.renater.fr/sympa/help/faq" title="Frequently asked questions"><i class="fa fa-question"></i> FAQ</a></li>
+                        <li><a href="https://feedback.renater.fr/?service=Universalistes" target="_BLANCK" data-tooltip aria-haspopup="true" title="Give us feedback about this new Universalistes version"><i class="fa fa-comments"></i> Feedback</a></li>		
+                    </ul>
+                </li>
+
+	
+		
+	
+	
+	
+<!--	
+
+	
+		
+		<li><a class="" href="/sympa/automatic_lists_request/" ><i class="fa fa-list-alt"></i> <label></label></a></li>
+	
+
+-->
+
+        <!-- end of sympa menu-->
+        
+        <!-- login banner start -->
+          <!-- $Id: loginbanner.tt2 12556 2015-12-04 14:58:29Z lumineau $ -->
+
+
+            <li>
+              
+            <form id="use-sso" action="https://groupes.renater.fr/sympa" method="post"> 
+              <fieldset>	
+              <input type="hidden" name="previous_action" value="" />
+              <input type="hidden" name="previous_list" value="" />
+              <input type="hidden" name="referer" value="https_%25a5%25a5groupes.renater.fr%25a5sympa%25a5arc%25a5dh%25a52018-03%25a5msg00036.html" />
+              <input type="hidden" name="list" value="dh" />
+                <input type="hidden" name="action" value="sso_login" />
+                
+                  
+                    <input type="hidden" name="auth_service_name" value="federation_cru" />
+                    <button type="submit" name="action_sso_login" value="Connexion"><i class="fa fa-user"></i> Connexion</button>
+
+                 
+                
+              </fieldset>
+            </form>
+            
+            </li>
+            
+            
+
+
+
+<!-- end loginbanner.tt2 -->
+
+        <!-- end of login banner-->
+        
+    </ul>
+</menu>
+</nav>
+
+
+<!--<h1 class="row">dh - Re: [DH] Un atelier de prosopographie</h1>-->
+
+<!--<h1 class="medium-offset-3 medium-9 columns">dh - Re: [DH] Un atelier de prosopographie</h1>-->
+
+
+<!--<h1 class="medium-offset-3 medium-9 columns">dh - Re: [DH] Un atelier de prosopographie</h1>-->
+
+
+
+</header>
+<!-- end header.tt2 -->
+
+
+
+<div id="loading" class="medium-9 columns">
+   <h1 id="loadingText"><i class="fa fa-spinner fa-pulse"></i> Please Wait...</h1></div>
+</div>
+
+    <!-- $Id: aside_menu.tt2 11846 2015-01-15 04:15:17Z sikeda $ -->
+<div id="top"><a class="displayNone" href="#content-inner">Skip to Content.</a></div>
+<aside class="medium-3 columns show-for-medium-up">
+
+
+
+
+<menu class="list">
+    <ul> 
+      <!-- $Id: list_menu.tt2 12618 2016-01-04 16:20:44Z lumineau $ -->
+
+
+
+
+<li class="menu_title"><label><i class="fa fa-envelope-square fa-lg"></i> List Options</label></li>
+
+<!-- $Id: list_panel.tt2 12505 2015-11-12 10:40:26Z lumineau $ -->
+
+
+
+
+
+<li class="nolink">
+  <span>Owners:
+    <span>
+    Frédéric Clavert, Marin Dacos, Martin Grandjean, Pierre Mounier</span>
+
+    
+  </span>
+</li>
+
+<li class="nolink">
+  <span>Moderators:
+    <span>
+    
+      <i>(same as owners)</i>
+    
+    </span>
+
+    
+  </span>
+</li>
+
+
+
+<li>
+  
+    
+ <script type="text/javascript">
+ <!-- 
+ document.write("<a href=\"mailto:dh-request" + "@" + "groupes.renater.fr\">Contact owners</a>")
+ // -->
+ </script>
+  
+</li>
+
+<!-- end list_panel.tt2 -->
+
+
+<li class="divider"></li>
+<li></li>
+
+<li class=""><a href="https://groupes.renater.fr/sympa/info/dh">List Home</a></li>
+
+
+
+
+
+
+
+
+  
+    
+    <li class=""><a  href="https://groupes.renater.fr/sympa/subscribe/dh" >Subscribe</a></li>
+  
+
+  
+    
+    <li class=""><a href="https://groupes.renater.fr/sympa/sigrequest/dh">Unsubscribe</a></li>
+  
+
+
+
+<li class="divider"></li>
+<li></li>
+
+  
+    
+    <li class="active"><a href="https://groupes.renater.fr/sympa/arc/dh" >Archive</a></li>
+  
+
+
+
+  <li class="menuInactive2"><span>Post</span></li>
+
+
+
+
+
+  
+    
+    <li class=""><a href="https://groupes.renater.fr/sympa/d_read/dh/" >Shared documents</a></li>
+  
+
+
+
+<!-- additionnal_list_menu_links.tt2 groupes.renater.fr -->
+
+ 
+
+
+
+
+
+<!-- lien vers evento -->
+<li class="menuLinks"><a href="https://evento.renater.fr/" >Prise de rendez-vous</a></li>
+
+<!-- end additionnal_list_menu_links.tt2 groupes.renater.fr -->
+
+
+<!-- end list_menu.tt2 -->
+
+    </ul>
+</menu>
+
+
+</aside>
+
+
+<!-- for responsive view -->
+
+    
+        <nav class="top-bar hide-for-medium-up" data-topbar role="navigation">
+            <ul class="title-area">
+                <li class="name">
+                </li>
+                <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+                <li class="toggle-topbar menu-icon"><a href="#"><span>List Options Menu</span></a></li>
+            </ul>
+        <section class="top-bar-section  hide-for-medium-up">
+          <ul class="right">
+            <!-- $Id: list_menu.tt2 12618 2016-01-04 16:20:44Z lumineau $ -->
+
+
+
+
+<li class="menu_title"><label><i class="fa fa-envelope-square fa-lg"></i> List Options</label></li>
+
+<!-- $Id: list_panel.tt2 12505 2015-11-12 10:40:26Z lumineau $ -->
+
+
+
+
+
+<li class="nolink">
+  <span>Owners:
+    <span>
+    Frédéric Clavert, Marin Dacos, Martin Grandjean, Pierre Mounier</span>
+
+    
+  </span>
+</li>
+
+<li class="nolink">
+  <span>Moderators:
+    <span>
+    
+      <i>(same as owners)</i>
+    
+    </span>
+
+    
+  </span>
+</li>
+
+
+
+<li>
+  
+    
+ <script type="text/javascript">
+ <!-- 
+ document.write("<a href=\"mailto:dh-request" + "@" + "groupes.renater.fr\">Contact owners</a>")
+ // -->
+ </script>
+  
+</li>
+
+<!-- end list_panel.tt2 -->
+
+
+<li class="divider"></li>
+<li></li>
+
+<li class=""><a href="https://groupes.renater.fr/sympa/info/dh">List Home</a></li>
+
+
+
+
+
+
+
+
+  
+    
+    <li class=""><a  href="https://groupes.renater.fr/sympa/subscribe/dh" >Subscribe</a></li>
+  
+
+  
+    
+    <li class=""><a href="https://groupes.renater.fr/sympa/sigrequest/dh">Unsubscribe</a></li>
+  
+
+
+
+<li class="divider"></li>
+<li></li>
+
+  
+    
+    <li class="active"><a href="https://groupes.renater.fr/sympa/arc/dh" >Archive</a></li>
+  
+
+
+
+  <li class="menuInactive2"><span>Post</span></li>
+
+
+
+
+
+  
+    
+    <li class=""><a href="https://groupes.renater.fr/sympa/d_read/dh/" >Shared documents</a></li>
+  
+
+
+
+<!-- additionnal_list_menu_links.tt2 groupes.renater.fr -->
+
+ 
+
+
+
+
+
+<!-- lien vers evento -->
+<li class="menuLinks"><a href="https://evento.renater.fr/" >Prise de rendez-vous</a></li>
+
+<!-- end additionnal_list_menu_links.tt2 groupes.renater.fr -->
+
+
+<!-- end list_menu.tt2 -->
+
+            </ul>
+        </section>
+    </nav>
+    
+
+
+<!-- end aside_menu.tt2 -->
+
+
+    
+    <main id="content-inner" class="medium-9 columns"><a name="content-inner"></a>
+
+      
+      
+       <!-- $Id: title.tt2 11846 2015-01-15 04:15:17Z sikeda $ -->
+<h1 style="padding-top: 10px;"><script type="text/javascript">
+ <!--
+ document.write("dh" + "@" + "groupes.renater.fr")
+ // --></script></h1>
+<!-- end title.tt2 -->
+
+       <p><b>Subject:</b> Liste francophone de discussion autour des Digital Humanities (DH) </p>
+      
+
+        <!-- $Id: nav.tt2 12449 2015-10-19 14:53:07Z lumineau $ -->
+
+
+
+
+
+
+
+
+
+
+<!-- end nav.tt2 -->
+
+
+        
+        
+        <!-- $Id: arc.tt2 12189 2015-06-11 11:45:38Z david.verdin $ -->
+<!-- begin : this part is generated by mhonarc using mhonarc-ressources.tt2 -->
+<div class="block">
+<h2>Text archives <a  href="https://groupes.renater.fr/sympa/nomenu/help/arc" title="Open in a new window" onclick="window.open('','wws_help','toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=yes,resizable=yes,copyhistory=no,width=400,height=200')" target="wws_help"><i class="fa fa-question-circle" title="Help"></i></a></h2>
+<br />
+
+<!-- MHonArc v2.6.19 -->
+<!--X-Subject: Re: [DH] Un atelier de prosopographie -->
+<!--X-From-R13: ynznffr &#60;fgrcunar.ynznffrNhavi&#45;cnevf1.se> -->
+<!--X-Date: Mon, 12 Mar 2018 19:23:54 +0100 -->
+<!--X-Message-Id: af34d3c6&#45;2779&#45;663a&#45;a255&#45;3ba0ee5e782f@univ&#45;paris1.fr -->
+<!--X-Content-Type: multipart/alternative -->
+<!--X-Reference: BC8BFA9D&#45;3450&#45;4084&#45;9114&#45;FCBC2466C2DC@gmail.com -->
+<!--X-Reference: VI1PR0601MB2208817FCF055CF3F99E55AFDF140@VI1PR0601MB2208.eurprd06.prod.outlook.com -->
+<!--X-Reference: AM5PR0102MB2676120014D38F247D559AE3B7140@AM5PR0102MB2676.eurprd01.prod.exchangelabs.com -->
+<!--X-Reference: CADg=&#45;XCP9Zx9mZ+aJpHkHfmi8=dqkpgpAr1t4WRdOhHhG0+W&#45;g@mail.gmail.com -->
+<!--X-Reference: 5ce5320c&#45;2f6a&#45;9549&#45;93b4&#45;614572fcd541@cnrs&#45;orleans.fr -->
+<!--X-Reference: AM5PR0102MB267661484A0E2311AFB74981B7140@AM5PR0102MB2676.eurprd01.prod.exchangelabs.com -->
+<!--X-Reference: FE30CC35&#45;FEE8&#45;4A98&#45;862C&#45;EFF2A986D6CE@gmail.com -->
+<!--X-Reference: CADg=&#45;XDFn0YOPQE5vErHu3nz5ApK7ZczDrbLZHkOsN_dusNqwA@mail.gmail.com -->
+<!--X-Reference: 6349D4E1&#45;A1AD&#45;44EA&#45;80BE&#45;D5B25CCFD3CD@yahoo.es -->
+<!--X-Reference: e015e417&#45;d685&#45;2748&#45;b000&#45;c348b1c59f83@univ&#45;paris1.fr -->
+<!--X-Reference: 92231157&#45;B1C1&#45;4A20&#45;B250&#45;B9E9D8125B81@huma&#45;num.fr -->
+<!--X-Reference: 372afd2f&#45;83e7&#45;4e1a&#45;8124&#45;9065872d6bb7@CNCH01WVP.core&#45;res.rootcore.local -->
+<!--X-Reference: DEFAEDB6&#45;980C&#45;4E2A&#45;8D70&#45;EF3221485332@huma&#45;num.fr -->
+<!--X-Reference: CACBNpeTMLznNZjqZ7N3R=8F_cj89WEr5x9a_9ZVL&#45;h+=Qg1nmA@mail.gmail.com -->
+<!--X-Reference: F5CFC2B5&#45;691F&#45;4851&#45;A9CE&#45;25EDDEED7EE4@huma&#45;num.fr -->
+<!--X-Head-End-->
+
+<!--X-Body-Begin-->
+<!--X-User-Header-->
+<!--X-User-Header-End-->
+<!--X-TopPNI-->
+
+<div id="ActionHeader">
+   <div class="text_center"><h2>Re: [DH] Un atelier de prosopographie</h2></div><br />
+   <span class="search_form">
+     <a class="ArcMenuLinksSortInactive" href="mail2.html#00036">Chronological</a>
+     <a class="ArcMenuLinksSortInactive" href="thrd2.html#00036">Thread</a>&nbsp;
+   </span>
+   <ul class="MainMenu">
+     <a class="ArcMenuLinks" href="msg00035.html">&lt;</a>
+ Chronological <a class="ArcMenuLinks" href="msg00037.html">&gt;</a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="ArcMenuLinks" href="msg00033.html">&lt;</a>
+  Thread <a class="ArcMenuLinks" href="msg00043.html">&gt;</a>
+
+   </ul>
+</div>
+<div>
+
+<!-- end header -->
+
+
+<!--X-TopPNI-End-->
+<!--X-MsgBody-->
+<!--X-Subject-Header-Begin-->
+
+
+
+<div class="block">
+
+
+<!--X-Subject-Header-End-->
+<!--X-Head-of-Message-->
+<ul>
+<li><strong>From</strong>: lamasse &lt;
+ <script type="text/javascript">
+ <!-- 
+ document.write("stephane.lamasse" + "@" + "univ-paris1.fr")
+ // -->
+ </script>&gt;</li>
+<li><strong>To</strong>: 
+ <script type="text/javascript">
+ <!-- 
+ document.write("dh" + "@" + "groupes.renater.fr")
+ // -->
+ </script></li>
+<li><strong>Subject</strong>: Re: [DH] Un atelier de prosopographie</li>
+<li><strong>Date</strong>: Mon, 12 Mar 2018 19:23:47 +0100</li>
+</ul>
+<!--X-Head-of-Message-End-->
+<!--X-Head-Body-Sep-Begin-->
+</div>
+<hr size="1" noshade>
+<!--X-Head-Body-Sep-End-->
+<!--X-Body-of-Message-->
+<table width="100%"><tr><td bgcolor="#FFFFFF" style="background-color: #FFFFFF; color: #000000; "><font color="#000000">
+  
+  
+    <p>Cher stéphane, chers collègues <br />
+    </p>
+    <p>Cette idée me semble vraiment intéressante et aurait au moins
+      deux avantages (partage d&#39;expériences et une espèce
+      d&#39;historiographie) <br />
+    </p>
+    <p>Bien amicalement</p>
+    <p>Stéphane <br />
+    </p>
+    <br />
+    <div>Le 12/03/2018 à 14:59, Stéphane
+      Pouyllau a écrit :<br />
+    </div>
+    
+      <pre>Re-bonjour,
+Oui, c’était un peu cela l’idée, mais dans un git dédié à la prosopographie.
+Bien cordialement,
+Stéphane.
+
+
+</pre>
+      <blockquote>
+        <pre>Le 12 mars 2018 à 11:00, Georges-Xavier Blary <a rel="nofollow">&lt;
+ <script type="text/javascript">
+ <!-- 
+ document.write("georges-xavier.blary" + "@" + "unilim.fr")
+ // -->
+ </script>&gt;</a> a écrit :
+
+Bonjour,
+
+J&#39;espère être dans l&#39;esprit de ce qui a été dit en signalant ce dépôt git sur la prosopographie par factoïde : <a rel="nofollow">https://github.com/johnBradley501/FPO</a> et le site internet qui lui est dédié : <a rel="nofollow">http://factoid-dighum.kcl.ac.uk/</a> (il y a quelques problèmes de lien internes sur ce site). Je peux aussi partager une bibliographie basiques sur la question si vous le souhaitez.
+
+Bonne journée,
+
+
+
+Georges-Xavier Blary
+CRIHAM (EA 4270) - UNILIM
+<a rel="nofollow">http://colemon.huma-num.fr</a>
+06 83 36 48 63
+________________________
+
+Le 12 mars 2018 à 10:44, Stéphane Pouyllau <a rel="nofollow">&lt;
+ <script type="text/javascript">
+ <!-- 
+ document.write("stephane.pouyllau" + "@" + "huma-num.fr")
+ // -->
+ </script>&gt;</a> a écrit :
+Bonjour,
+Les données relèvent plus à mon sens de la production scientifique et donc de la publication des données. Là, j’étais plus sur quelque chose de « léger » : une fiche PDF, quelques fichiers XML, le tout dans un gitlab. Un peu comme un vide greniers.
+S.
+
+</pre>
+        <blockquote>
+          <pre>Le 12 mars 2018 à 09:52, Francesco Beretta <a rel="nofollow">&lt;
+ <script type="text/javascript">
+ <!-- 
+ document.write("francesco.beretta" + "@" + "ish-lyon.cnrs.fr")
+ // -->
+ </script>&gt;</a> a écrit :
+
+Bonjour,
+
+Je trouve qu&#39;il s&#39;agit d&#39;une excellente idée, notamment en vue de l&#39;interopérabilité des données. En effet, il serait très       intéressant, dans une logique open data, non seulement de pouvoir s&#39;inspirer de ces modèles, mais encore de disposer d&#39;un accès publique aux données elles-mêmes et de pouvoir les interroger et réutiliser pour de nouvelles recherches.
+
+Permettez-moi de signaler à ce sujet une initiative en cours de développement, comprenant une plateforme et un consortium qui la porte, le projet dataforhistory.org, dont une finalité est précisément celle de partager et d&#39;aligner les modèles &#39;locaux&#39; des projets de recherche en histoire, tout en les inscrivant à l&#39;intérieur du framework conceptuel du CIDOC-CRM. Et ce en vue de faciliter l&#39;interopérabilité des données, notamment prosopographiques.
+Si vous êtes intéressés à participer à cette initiative n&#39;hésitez pas à prendre contact avec nous. La prochaine réunion du consortium aura lieu les 24 et 25 mai prochains à Lyon.
+
+Bien cordialement
+
+Francesco Beretta
+
+Le 12.03.18 à 07:38, Stéphane Pouyllau a écrit :
+</pre>
+          <blockquote>
+            <pre>Bonjour Stéphane, bonjour à tous,
+
+En lisant ton annonce, je me demandais si un espace de partage et de documentation de modèles de données de bases prospographiques ne serait pas utile aux collègues.
+
+L’idée serait d’avoir un lieu ou déposer des fichiers (schémas XML, DTD, etc.) avec un simple documentation PDF décrivant le modèle. Est-ce que cela serait utile ? Le principal but serait de permettre de partager des modèles de données, de les discuter aussi et de permettre à des chercheurs, qui se lanceraient dans une base de données prosopographique, d’y trouver des modèles décrits et classés par discipline (par exemple).
+
+Si ça n’existe pas déjà, est-ce que cela aurait du sens ?
+
+Bien cordialement,
+Stéphane Pouyllau.
+
+</pre>
+            <blockquote>
+              <pre>Le 9 mars 2018 à 19:46, lamasse <a rel="nofollow">&lt;
+ <script type="text/javascript">
+ <!-- 
+ document.write("stephane.lamasse" + "@" + "univ-paris1.fr")
+ // -->
+ </script>&gt;</a> a écrit :
+
+Chers collègues,
+
+Je me permets de relayer cette information qui peut intéresser tous ceux qui ont un intérêt pour la prosopographie.
+
+------------------
+INFORSID 2018 - ATELIER
+
+36e édition – Nantes - 28 au 31 mai 2018
+
+
+Les Systèmes d’Information pour les Humanités Numériques
+
+
+L&#39;objectif de cet atelier est d&#39;explorer la nature de la relation entre, d’une part, le domaine des systèmes               d&#39;information et, d’autre part, celui des humanités numériques. En particulier, l&#39;atelier réunira des chercheurs de différentes disciplines partageant un intérêt commun pour la contribution des méthodes des systèmes d&#39;information aux humanités numériques, en particulier dans le domaine prosopographique. Nous faisons appel à des contributions qui étudient :
+
+(i)          L&#39;application des systèmes d’information aux humanités numériques.
+
+(ii)         Les moyens d&#39;améliorer les méthodes et modèles des systèmes d&#39;information grâce à l’apport des méthodes des sciences humaines et sociales.
+
+En particulier nous sollicitons des contributions sur les systèmes d&#39;information prosopographiques qui combinent l’apport des systèmes d’information à la recherche prosopographique. Plus généralement, nous sollicitons des contributions originales qui portent sur les approches, les solutions, les méthodes, les langages et les applications sur les sujets suivants (liste non exhaustive) :
+
+
+•            SI et Langage
+
+•            SI et Histoire
+
+•            SI et Art
+
+•            SI et Philosophie
+
+•            SI et Droit
+
+•            SI et Approches des Sciences Humaines et Sociales (SHS)
+
+•            Approches des SHS et SI
+
+•            Approches Prosopographiques
+
+•            Bases de Données Prosopographiques
+
+•            Etudes de Cas en SI pour les SHS
+
+•            Etudes de Cas en SHS pour les SI
+
+•            Etudes de Cas en Prosopographie
+
+
+Les papiers pourront être soumis en français ou en anglais. Tous les manuscrits soumis seront examinés par au moins deux membres du comité d&#39;atelier. Les articles acceptés et présentés apparaîtront dans les actes de l&#39;atelier. Les versions étendues des articles acceptés seront invitées à être publiées dans un numéro spécial de la revue Ingénierie des Systèmes d’Information (ISI).  Les soumissions devront respecter le modèle Hermès-Lavoisier, modèle de la conférence INFORSID, avec un nombre de pages compris entre 6 et 16 pages : (Feuille de style Word, Feuille de style LaTeX). Les articles doivent être soumis en format PDF et envoyés par mail à <a rel="nofollow">
+ <script type="text/javascript">
+ <!-- 
+ document.write("jacky.akoka" + "@" + "lecnam.net")
+ // -->
+ </script></a>.
+
+
+Dates importantes
+
+Date de soumission: 10 Avril 2018
+
+Notification: 10 Mai 2018
+
+
+__________________
+La liste DH est un service d&#39;Humanistica, l&#39;association francophone des humanités numériques/digitales : <a rel="nofollow">http://www.humanisti.ca/</a>
+Interface d&#39;administration de la liste : <a rel="nofollow">https://groupes.renater.fr/sympa/info/dh</a>
+</pre>
+            </blockquote>
+            <pre>
+—
+Stéphane Pouyllau
+Directeur technique et co-fondateur d’Huma-Num — Ingénieur de recherche CNRS
+
+ISIDORE signale l’intégralité de ma production scientifique en libre accès, et vous ? <a rel="nofollow">https://rechercheisidore.fr/search/?author=http://orcid.org/0000-0002-9619-1002</a>
+
+Huma-Num, 54 Bd Raspail, 75006 Paris
+
+<a rel="nofollow">http://www.huma-num.fr</a> — <a rel="nofollow">https://humanum.hypotheses.org</a>
+
+
+
+__________________
+La liste DH est un service d&#39;Humanistica, l&#39;association francophone des humanités numériques/digitales : <a rel="nofollow">http://www.humanisti.ca/</a>
+Interface d&#39;administration de la liste : <a rel="nofollow">https://groupes.renater.fr/sympa/info/dh</a>
+</pre>
+          </blockquote>
+          <pre>
+
+__________________
+La liste DH est un service d&#39;Humanistica, l&#39;association francophone des humanités numériques/digitales : <a rel="nofollow">http://www.humanisti.ca/</a>
+Interface d&#39;administration de la liste : <a rel="nofollow">https://groupes.renater.fr/sympa/info/dh</a>
+</pre>
+        </blockquote>
+        <pre>
+—
+Stéphane Pouyllau
+Directeur technique et co-fondateur d’Huma-Num — Ingénieur de recherche CNRS
+
+ISIDORE signale l’intégralité de ma production scientifique en libre accès, et vous ? <a rel="nofollow">https://rechercheisidore.fr/search/?author=http://orcid.org/0000-0002-9619-1002</a>
+
+Huma-Num, 54 Bd Raspail, 75006 Paris
+
+<a rel="nofollow">http://www.huma-num.fr</a> — <a rel="nofollow">https://humanum.hypotheses.org</a>
+
+
+
+
+__________________
+La liste DH est un service d&#39;Humanistica, l&#39;association francophone des humanités numériques/digitales : <a rel="nofollow">http://www.humanisti.ca/</a>
+Interface d&#39;administration de la liste : <a rel="nofollow">https://groupes.renater.fr/sympa/info/dh</a>
+
+
+
+__________________
+La liste DH est un service d&#39;Humanistica, l&#39;association francophone des humanités numériques/digitales : <a rel="nofollow">http://www.humanisti.ca/</a>
+Interface d&#39;administration de la liste : <a rel="nofollow">https://groupes.renater.fr/sympa/info/dh</a> 
+</pre>
+      </blockquote>
+      <pre>
+—
+Stéphane Pouyllau
+Directeur technique et co-fondateur d’Huma-Num — Ingénieur de recherche CNRS
+
+ISIDORE signale l’intégralité de ma production scientifique en libre accès, et vous ? <a rel="nofollow">https://rechercheisidore.fr/search/?author=http://orcid.org/0000-0002-9619-1002</a>
+
+Huma-Num, 54 Bd Raspail, 75006 Paris
+
+<a rel="nofollow">http://www.huma-num.fr</a> — <a rel="nofollow">https://humanum.hypotheses.org</a>
+
+
+</pre>
+      <br />
+      
+      <br />
+      <pre>
+__________________
+La liste DH est un service d&#39;Humanistica, l&#39;association francophone des humanités numériques/digitales : <a rel="nofollow">http://www.humanisti.ca/</a>
+Interface d&#39;administration de la liste : <a rel="nofollow">https://groupes.renater.fr/sympa/info/dh</a> 
+</pre>
+    
+    <br />
+  
+
+</font></td></tr></table>
+<!--X-Body-of-Message-End-->
+<!--X-MsgBody-End-->
+<!--X-Follow-Ups-->
+<br clear="all" />
+<hr size="1" noshade>
+<UL>
+<li><b><a name="00020" href="msg00020.html">[DH] Un atelier de prosopographie</a></b>, <em>lamasse, 03/09/2018</em>
+<ul>
+<li><b><a name="00021" href="msg00021.html">Re: [DH] Un atelier de prosopographie</a></b>, <em>Stéphane Pouyllau, 03/12/2018</em>
+<ul>
+<li><b><a name="00022" href="msg00022.html">Re: [DH] Un atelier de prosopographie</a></b>, <em>recherche . coordination, 03/12/2018</em>
+<ul>
+<li><b><a name="00028" href="msg00028.html">Re: [DH] Un atelier de prosopographie</a></b>, <em>Cristofoli Pascal, 03/12/2018</em>
+</li>
+</ul>
+</li>
+<li><b><a name="00023" href="msg00023.html">Re: [DH] Un atelier de prosopographie</a></b>, <em>Francesco Beretta, 03/12/2018</em>
+<ul>
+<li><b><a name="00024" href="msg00024.html">Re: [DH] Un atelier de prosopographie</a></b>, <em>Stéphane Pouyllau, 03/12/2018</em>
+<ul>
+<li><b><a name="00025" href="msg00025.html">Re: [DH] Un atelier de prosopographie</a></b>, <em>Francesco Beretta, 03/12/2018</em>
+</li>
+<li><b><a name="00026" href="msg00026.html">Re: [DH] Un atelier de prosopographie</a></b>, <em>Georges-Xavier Blary, 03/12/2018</em>
+<ul>
+<li><b><a name="00033" href="msg00033.html">Re: [DH] Un atelier de prosopographie</a></b>, <em>Stéphane Pouyllau, 03/12/2018</em>
+<ul>
+<LI><STRONG>Re: [DH] Un atelier de prosopographie</STRONG>, <EM>lamasse, 03/12/2018</EM>
+</li>
+<li><b><a name="00043" href="msg00043.html">Re: [DH] Un atelier de prosopographie</a></b>, <em>Claire Lemercier, 03/14/2018</em>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</UL>
+
+<!--X-Follow-Ups-End-->
+<!--X-References-->
+<!--X-References-End-->
+<!--X-BotPNI-->
+
+
+<!--X-BotPNI-End-->
+<!--X-User-Footer-->
+<!--X-User-Footer-End-->
+<hr size="1" noshade>
+<p><font size="-1">
+Archive powered by <a href="http://www.mhonarc.org/">MHonArc 2.6.19</a>.
+</font></p>
+
+
+
+
+</div>
+<!-- end of part generated by mhonarc -->
+<!-- end arc.tt2 -->
+
+
+ 
+
+        
+        </main><!-- End content-inner -->
+    
+
+<div class="scroll-top-wrapper ">
+	<span class="scroll-top-inner">
+		<i class="fa fa-2x fa-arrow-circle-up"></i>
+	</span>
+</div>
+
+    <div id='feedbackContainer' class='reveal-modal small' data-reveal data-reveal="">
+        <h2 class='text-center'>
+            <i class='fa fa-info-circle '> 
+                <span>
+                    Universalistes evolves!
+                </span>
+            </i>
+        </h2>
+        <p>
+            The RENATER services are constantly evolving.
+        </p>
+        <p>
+            To improve our offer, and give you a simpler and faster use of these services, we need your feedback about their usability, ergonomics.
+        </p>
+        <p>
+            So help us giving us your comments, suggestions for improvement or your wishes for new features.
+        </p> 
+        <p>
+            To do so contact use using <a href="https://feedback.renater.fr/?service=Universalistes" target='_blank'>our user feedback form</a> to detail your wishes and observations.
+        </p>
+        <hr/>
+        <span class='text-right'>
+            <label for='stop_show_feedback'>
+                <input type='checkbox' name='stop_show_feedback' id='stop_show_feedback' />
+                &nbsp; Do not show this popup again
+            </label>
+        </span>
+        <br/>
+    <a class='close-reveal-modal'>&#215;</a>
+    </div>
+
+<!-- $Id: footer.tt2 11846 2015-01-15 04:15:17Z sikeda $ -->
+
+<section class="footer">
+</section>
+
+<footer>
+    <article class="row">
+        <ul class="medium-block-grid-3 ">
+            <li>
+                <ul>
+                    <li>
+						<img src="../../../../static-sympa/icons/groupes.renater.fr/logo_renater_blanc.png" />
+					</li>
+                    <li>Réseau National de télécommunications pour la Technologie l’Enseignement et la Recherche.</li>
+                    <li>
+						<a href="https://www.renater.fr/" target="_blank">
+							<img src="../../../../static-sympa/icons/groupes.renater.fr/renater_france_square.png" />
+						</a>
+						 <a href="https://www.facebook.com/gip.renater" target="_blank">
+							<i class="fa fa-facebook-square"></i>
+						</a>
+						 <a href="https://twitter.com/RENATERnews" target="_blank">
+							<i class="fa fa-twitter-square"></i>
+						</a> 
+					</li>
+                </ul>
+            </li>
+            <li>
+                <ul >
+                    <li><h2>Resources</h2></li>
+                    <li>Lists
+                        <ul>
+                            <li><a href="https://groupes.renater.fr/sympa/search_list_request" target="">Search form</a>
+                            <li><a href="https://groupes.renater.fr/sympa/lists" target="">Index of lists</a>
+                            <li><a href="https://groupes.renater.fr/sympa/lists_categories" target="">Browse lists by categories</a>
+                        </ul>
+                    </li>
+                    <li>Documentation
+                        <ul>
+                            <li><a href="https://groupes.renater.fr/sympa/help/introduction" target="">General introduction</a>
+                            <li><a href="https://groupes.renater.fr/sympa/help/user" target="">User guide</a>
+                            <li><a href="https://groupes.renater.fr/sympa/help/admin" target="">Administrator guide</a>
+                        </ul>
+                    </li>
+                    <li>FAQ
+                        <ul>
+                            <li><a href="https://services.renater.fr/groupware/universalistes/faq" target="_blank">User FAQ</a>
+                            <li><a href="https://groupes.renater.fr/sympa/help/faqadmin" target="">Administrators FAQ</a>
+                        </ul>                    
+                    </li>
+                </ul> 
+            </li>
+            <li>
+                <ul>
+                    <li><h2>Contact us</h2></li>
+                    <li><i class="fi-marker"></i>23-25, rue Daviel - 75013 PARIS</li>                    
+                    <li><i class="fa fa-comments"></i><a href="https://feedback.renater.fr/?service=Universalistes" target="_BLANCK" data-tooltip aria-haspopup="true" title="Give us feedback about this new Universalistes version">Feedback</a></li>
+              </ul>
+
+            </li>
+        </ul>
+
+
+    </article>
+</footer>
+<aside class="row footer-copyright">
+    <ul>
+        <li class="small-12 medium-6 columns">© 2015 RENATER - All rights reserved</li>
+        <li class="small-12 medium-6 columns text-right"><img src="../../../../static-sympa/icons/favicon_sympa.png" alt="SYMPA logo" width="20" height="20"/> <a href="http://www.sympa.org/"> Powered by Sympa 6.2.13</a></li>
+    </ul>
+</aside>
+
+<!-- end footer.tt2 -->
+
+
+
+</body>
+
+<!-- end main.tt2 -->
+
+<!-- Mirrored from groupes.renater.fr/sympa/arc/dh/2018-03/msg00036.html by HTTraQt Website Copier/1.x [Karbofos 2012-2017] jeu., 29 mars 2018 22:39:02 GMT -->
+</html>

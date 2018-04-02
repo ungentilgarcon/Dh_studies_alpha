@@ -1,0 +1,1138 @@
+<!DOCTYPE html>
+<html lang="en-US" xml:lang="en-US">
+<!-- $Id: main.tt2 11869 2015-01-19 12:38:09Z etiennemeleard $ -->
+
+<!-- Mirrored from groupes.renater.fr/sympa/arc/dh/2016-07/msg00017.html by HTTraQt Website Copier/1.x [Karbofos 2012-2017] jeu., 29 mars 2018 22:50:11 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+<meta charset="UTF-8" />
+<meta name="generator" content="Sympa 6.2.13" />
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+<title> dh - [DH] Humanistica rejoint ADHO - arc </title>
+
+<!-- $Id: head_ui.tt2 11868 2015-05-21 12:36:46Z olivierlumineau $ -->
+<!-- Jquery-ui -->
+<link rel="stylesheet" href="../../../../static-sympa/external/jquery-ui.css" />
+
+<!-- Jqplot -->
+<link rel="stylesheet" href="../../../../static-sympa/external/jquery.jqplot.css" />
+
+<!-- Font css -->
+<link href='../../../../../fonts.googleapis.com/css277c.css?family=Raleway:400,700,900,200' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="../../../../static-sympa/external/font-awesome/css/font-awesome.css" />
+<link rel="stylesheet" href="../../../../static-sympa/fonts/foundation-icons/foundation-icons.css" />
+
+<!-- Foundation -->
+<link rel="stylesheet" href="../../../../static-sympa/external/foundation/css/foundation.css" />
+<link rel="stylesheet" href="../../../../static-sympa/external/foundation/css/normalize.css" />
+<link rel="stylesheet" href="../../../../static-sympa/external/foundation/css/responsive-tables.css" />
+
+<style>
+  select[multiple], select[size] { height: auto; background-image: none; }
+</style>
+
+
+<link rel="stylesheet" href="../../../../static-sympa/css/groupes.renater.fr/stylef0dc.css?version=6.2.13" media="screen" title="Sympa CSS" />
+
+
+<style>
+  #loadingText span:before {
+    content: "Please Wait...";
+  }
+</style>
+
+<!-- $Id: css_ie.tt2 11846 2015-01-15 04:15:17Z sikeda $ -->
+
+<!-- Specific css for IE -->
+
+<!--[if lte IE 8]>
+<style type="text/css">
+
+/* Workaround for "noscript ghost" bug */
+noscript {
+          display: block;
+          }
+
+</style>
+<![endif]-->
+
+<!--[if IE 7]>
+<style type="text/css">
+
+#subnav {
+          position:absolute;
+	  left:25em;
+          }
+
+#bandeau_top .login .MainMenuLinks {
+	                             margin-top:0.2em;
+           	                     }
+
+</style>
+<![endif]-->
+
+
+<!--[if  lte IE 7]>
+<style type="text/css">
+
+ul#MainMenuLinks {
+                   margin-left:-3em;
+                   }
+
+a.input {
+          padding: 0 0.3em;
+          }
+
+/* "vertical-align: baseline" aligns form fields on bottom of widgets */
+form input,
+form textarea,
+form select {
+             vertical-align: middle;
+             }
+.MainMenuLinks {
+                margin-bottom: 0.2em;
+                vertical-align: middle;
+                }
+
+/* Workaround for "peek-a-boo" bug. */
+a.MainMenuLinks,
+a.MainMenuLinks:hover,
+a.MainMenuLinksCurrentPage,
+a.MainMenuLinksCurrentPage:hover {
+                                  position: relative;
+                                  }
+
+</style>
+<![endif]-->
+
+
+
+<!--[if lte IE 6]>
+<style type="text/css">
+
+#logo {
+        position:absolute;
+        top:0.5em;
+        left:-5em;
+        z-index:510;
+        }
+
+#Stretcher {
+             width:99.5%;
+             }
+
+#subnav {
+          width:100%;
+	  background-color:#6679bb;
+          border:1px solid #e1e2e5;
+          border-width: 0 1px 0 0;
+          }
+
+#nav {
+       width:99%;
+       }
+
+#Footer {
+          margin: 0.5em 0.8em;
+          }
+
+#bandeau_top .login .MainMenuLinks {
+	                             margin-top:0;
+           	                     }
+
+
+</style>
+<![endif]-->
+
+<!-- end  css_ie.tt2 -->
+
+
+
+
+<!-- the following CSS have to be improved before to be used -->
+<!-- <link rel="stylesheet" href="/static-sympa/css/groupes.renater.fr/print.css" media="print" /> -->
+<!-- <link rel="alternative stylesheet" href="/static-sympa/css/groupes.renater.fr/fullPage.css" media="screen" title="View Full Page" /> -->
+<!-- <link rel="alternative stylesheet" href="/static-sympa/css/groupes.renater.fr/print-preview.css" media="screen" title="Print Preview" /> -->
+
+
+<link rel="shortcut icon" href="../../../../static-sympa/icons/groupes.renater.fr/favicon.png" />
+
+
+<!-- end head_ui.tt2 -->
+
+
+<!-- $Id: head_javascript.tt2 11868 2015-05-21 12:36:46Z olivierlumineau $ -->
+
+<script>
+<!--
+// this script only contains variable initializations.
+
+// Miscellaneous vars
+var path_cgi = 'https://groupes.renater.fr/sympa/';
+var lang = 'en-US';
+//-->
+</script>
+
+<script>
+<!--
+// A few configuration settings
+var CROSSHAIRS_LOCATION = '../../../../static-sympa/icons/crosshairs.png';
+var HUE_SLIDER_LOCATION = '../../../../static-sympa/icons/h.png';
+var HUE_SLIDER_ARROWS_LOCATION = '../../../../static-sympa/icons/position.png';
+var SAT_VAL_SQUARE_LOCATION = '../../../../static-sympa/icons/sv.png';
+
+// Variables used by the calendar js.
+var pDefaut = { 
+	"mois" : "January:February:March:April:May:June:July:August:September:October:November:December".split(":"),
+	"jour" : "Sun:Mon:Tue:Wed:Thu:Fri:Sat".split(":"),
+	"jLib" : "Sunday:Monday:Tuesday:Wednesday:Thursday:Friday:Saturday".split(":"),
+	"titre" : "Calendar",
+	"aujourdhui" : "today",
+	"debutSemaine" : 0,                      /*debut de la semaine 0=lun,1=mar,...*/
+	"jPause" : {6:true,0:true},              /*jour de pause de la semaine (samedi & dimanche)*/
+	"jFeriee": {"1-1":"Jour de l'an","1-5":"Fête du travail","8-5":"Armistice 39-45","14-7":"Fête nationale","15-8":"Ascension","1-11":"Armistice 14-18","11-11":"Toussaint","25-12":"Noël"} ,
+	"moisMoins" : "<", "moisPlus" : ">",     /*navigation par mois*/ 
+	"anneeMoins" : "<<", "anneePlus" : ">>", /*navigation par annee*/
+	"format" : "%j-%m-%a",                   /*format de sortie : %j = jour, %m = mois, %a =année*/ 
+	"date" : null, "ddeb" : "", "dfin" : "",
+	"dateMin" : null, "dateMax" : null
+}
+
+
+var param_ddeb = {"dfin" : "date_fin", "titre" : "Start date" };
+var param_dfin = {"ddeb" : "date_deb", "titre" : "End date"  };
+
+var tempo = new Array(); /*gestion de la fermeture des calendriers quand on perd le focus*/
+var nomove={"TR":0,"CENTER":0,"B":0,"P":0,"U":0,"I":0,"DIV":0,"A":0,"FONT":0,"LI":0,"PRE":0,"SPAN":0,"SUB":0,"SUP":0,"FORM":0};
+//var nomove={"TD":0,"TABLE":0};
+
+if (!('universalistes' in window))
+    window.universalistes = {};
+
+
+window.universalistes.Utilities =  {
+    /**
+     * this function allos to manage storage of feedback showing dialog
+     * @param {type} enabled: False to disable the dialog showing at next load, 
+     * true otherwhise
+     */
+    manageFeedback: function(enabled){
+        if (this.isLocalStorageAvailable()){
+            window.localStorage.setItem('universalistes_feedback',String(enabled));
+        }else{
+            this.setCookie('universalistes_feedback',String(enabled));
+        }
+    },
+
+
+    /**
+     * Allows to know if localstorage is available
+     * @returns {Boolean} True if available, false otherwhise
+     */
+    isLocalStorageAvailable: function(){
+        return ('localStorage' in window) && (window['localStorage'] !== null);
+    },
+
+/**
+     * This function allows to know if the feedback dialog has to be shown
+     * 
+     * @returns Truez if needed, false otherwhise
+     */
+    showFeedback: function(){
+        var feedback = false;
+        if (this.isLocalStorageAvailable()){
+            feedback = window.localStorage.getItem('universalistes_feedback');
+        }else{
+            feedback =  this.getCookie('universalistes_feedback');
+        }
+        return (feedback === null || feedback !== "false");
+    },
+
+    /**
+     * This function allows to store a cookie.
+     * 
+     * @param {type} cname: The cookie name
+     * @param {type} cvalue: The value to store
+     * @param {type} exdays: Cookie duration
+     * @returns {undefined}
+     */
+    setCookie: function(cname, cvalue, exdays) {
+        if (!exdays) exdays=60;
+        
+        var d = new Date();
+        d.setTime(d.getTime() + (exdays*24*60*60*1000));
+        var expires = "expires="+d.toUTCString();
+        document.cookie = cname + "=" + cvalue + "; " + expires;
+    },
+    
+    getCookie: function (cname) {
+        var name = cname + "=";
+        var ca = document.cookie.split(';');
+        for(var i=0; i<ca.length; i++) {
+            var c = ca[i];
+            while (c.charAt(0)==' ') c = c.substring(1);
+            if (c.indexOf(name) == 0) return c.substring(name.length,c.length);
+        }
+        return "";
+    }
+
+};
+//-->
+</script>
+
+<!-- Now retrieving the javascript files -->
+
+<script src="../../../../static-sympa/external/jquery.js"></script>
+
+<script src="../../../../static-sympa/external/jquery-ui.js"></script>
+
+<script src="../../../../static-sympa/external/jquery.jqplot.min.js"></script>
+<script src="../../../../static-sympa/external/jqplot.categoryAxisRenderer.min.js"></script>
+<script src="../../../../static-sympa/external/jqplot.barRenderer.min.js"></script>
+<script src="../../../../static-sympa/external/jqplot.canvasAxisTickRenderer.min.js"></script>
+<script src="../../../../static-sympa/external/jqplot.canvasTextRenderer.min.js"></script>
+
+<script src="../../../../static-sympa/js/sympa.js"></script>
+
+<!-- Foundation and other ui adaptation -->
+<!--[if lt IE 9]>
+<script type="text/javascript" src="/static-sympa/external/html5shiv/html5shiv.js"></script>
+<![endif]-->
+<script type="text/javascript" src="../../../../static-sympa/external/respondjs/respond.min.js"></script>
+<script src="../../../../static-sympa/external/foundation/js/vendor/modernizr.js"></script>
+<script src="../../../../static-sympa/external/foundation/js/vendor/fastclick.js"></script>
+<script src="../../../../static-sympa/external/foundation/js/vendor/placeholder.js"></script>
+<!--<script src="/static-sympa/external/foundation/js/vendor/jquery.js"></script>-->
+<script src="../../../../static-sympa/external/foundation/js/foundation/foundation.js"></script>
+<script src="../../../../static-sympa/external/foundation/js/foundation/foundation.topbar.js"></script>
+<script src="../../../../static-sympa/external/foundation/js/foundation/foundation.reveal.js"></script>
+<script src="../../../../static-sympa/external/foundation/js/foundation/foundation.tooltip.js"></script>
+<script src="../../../../static-sympa/external/foundation/js/foundation/foundation.accordion.js"></script>
+<script src="../../../../static-sympa/external/foundation/js/foundation/responsive-tables.js"></script>
+<script>
+$(
+function () {
+    // Loading foundation
+    $(document).foundation({
+        topbar: {
+            back_text: '<i class="fa fa-undo"></i> Back'
+        }
+    });
+
+    // Manage feedback dialog
+    
+
+    /*Top Button*/ 
+    $(document).on( 'scroll', function(){
+
+            if ($(window).scrollTop() > 100) {
+                    $('.scroll-top-wrapper').addClass('show');
+            } else {
+                    $('.scroll-top-wrapper').removeClass('show');
+            }
+    });
+
+    $('.scroll-top-wrapper').on('click', scrollToTop);
+
+});
+
+/*Top Button*/
+function scrollToTop() {
+	verticalOffset = typeof(verticalOffset) != 'undefined' ? verticalOffset : 0;
+	element = $('body');
+	offset = element.offset();
+	offsetTop = offset.top;
+	$('html, body').animate({scrollTop: offsetTop}, 500, 'linear');
+}
+</script>
+
+
+
+<!-- end head_javascript.tt2 -->
+
+
+<!-- RSS chanel -->
+        <link rel="alternate" type="application/xml" title="RSS Latest messages" href="../../../rss/latest_arc/dh84ed?count=20"/>     <link rel="alternate" type="application/xml" title="RSS Latest documents" href="../../../rss/latest_d_read/dh84ed?count=20"/>   
+ <base  /> 
+
+</head>
+
+<body onload="">
+
+
+
+<a name="top"></a>
+<noscript><em>Please activate JavaScript in your web browser</em></noscript>
+
+
+
+    
+
+
+    <!-- $Id: header.tt2 11846 2015-05-19 04:15:17Z lumineau $ -->
+<header>
+
+<nav class="top-bar" data-topbar role="navigation">
+    <ul class="title-area show-for-large-up">
+        <li class="name">
+                
+                  <a href="https://groupes.renater.fr/sympa" title="Accueil"><img src="../../../../static-sympa/icons/groupes.renater.fr/universalistes.svg" alt="Universalistes logo"></a>
+                
+        </li>
+        <li class="toggle-topbar menu-icon"><a href="#"><span>Sympa Menu</span></a></li>
+    </ul>
+
+    <ul class="title-area hide-for-large-up">
+        <li class="name">
+                
+                  <a href="https://groupes.renater.fr/sympa" title="Accueil"><img src="../../../../static-sympa/icons/groupes.renater.fr/universalistes.svg" alt="Universalistes logo"></a>
+                
+        </li>
+        <li class="toggle-topbar menu-icon"><a href="#"><span>Sympa Menu</span></a></li>
+    </ul>
+<menu class="top-bar-section">
+  <ul class="right">
+        <!-- sympa menu start --> 
+                  
+	
+		<li class=""><a  href="https://groupes.renater.fr/sympa/home"><i class="fi-home"></i>  <label>Home<label></a></li>
+		
+	
+		
+	
+                
+                <li class="has-dropdown ">
+                    <a href="#"><i class="fa fa-search"></i> <label>Search for List(s)</label></a>
+                    <ul class="dropdown">
+                        <li><a href="https://groupes.renater.fr/sympa/search_list_request"><i class="fa fa-search"></i> Search form</a></li>
+                        <li><a class="" href="https://groupes.renater.fr/sympa/lists" onclick="show('loading'); hide('content-inner');"><i class="fa fa-list"></i> Index of Lists</a></li>
+                        <li><a href="https://groupes.renater.fr/sympa/lists_categories" target=""><i class="fa fa-sitemap"></i> Browse lists by categories</a>		
+                    </ul>
+                </li>
+                
+                <li class="has-dropdown ">
+                    <a href="#"><i class="fa fa-life-ring"></i> <label>Support</label></a>
+                    <ul class="dropdown">
+                        <li><a href="https://groupes.renater.fr/sympa/help" title="Documentation"><i class="fa fa-book"></i> Documentation</a></li>
+                        <li><a href="https://groupes.renater.fr/sympa/help/faq" title="Frequently asked questions"><i class="fa fa-question"></i> FAQ</a></li>
+                        <li><a href="https://feedback.renater.fr/?service=Universalistes" target="_BLANCK" data-tooltip aria-haspopup="true" title="Give us feedback about this new Universalistes version"><i class="fa fa-comments"></i> Feedback</a></li>		
+                    </ul>
+                </li>
+
+	
+		
+	
+	
+	
+<!--	
+
+	
+		
+		<li><a class="" href="/sympa/automatic_lists_request/" ><i class="fa fa-list-alt"></i> <label></label></a></li>
+	
+
+-->
+
+        <!-- end of sympa menu-->
+        
+        <!-- login banner start -->
+          <!-- $Id: loginbanner.tt2 12556 2015-12-04 14:58:29Z lumineau $ -->
+
+
+            <li>
+              
+            <form id="use-sso" action="https://groupes.renater.fr/sympa" method="post"> 
+              <fieldset>	
+              <input type="hidden" name="previous_action" value="" />
+              <input type="hidden" name="previous_list" value="" />
+              <input type="hidden" name="referer" value="https://groupes.renater.fr/sympa/arc/dh/2016-07/https%3a%a5%a5groupes.renater.fr%a5sympa%a5arc%a5dh%a52016-07%a5msg00017.html" />
+              <input type="hidden" name="list" value="dh" />
+                <input type="hidden" name="action" value="sso_login" />
+                
+                  
+                    <input type="hidden" name="auth_service_name" value="federation_cru" />
+                    <button type="submit" name="action_sso_login" value="Connexion"><i class="fa fa-user"></i> Connexion</button>
+
+                 
+                
+              </fieldset>
+            </form>
+            
+            </li>
+            
+            
+
+
+
+<!-- end loginbanner.tt2 -->
+
+        <!-- end of login banner-->
+        
+    </ul>
+</menu>
+</nav>
+
+
+<!--<h1 class="row">dh - [DH] Humanistica rejoint ADHO</h1>-->
+
+<!--<h1 class="medium-offset-3 medium-9 columns">dh - [DH] Humanistica rejoint ADHO</h1>-->
+
+
+<!--<h1 class="medium-offset-3 medium-9 columns">dh - [DH] Humanistica rejoint ADHO</h1>-->
+
+
+
+</header>
+<!-- end header.tt2 -->
+
+
+
+<div id="loading" class="medium-9 columns">
+   <h1 id="loadingText"><i class="fa fa-spinner fa-pulse"></i> Please Wait...</h1></div>
+</div>
+
+    <!-- $Id: aside_menu.tt2 11846 2015-01-15 04:15:17Z sikeda $ -->
+<div id="top"><a class="displayNone" href="#content-inner">Skip to Content.</a></div>
+<aside class="medium-3 columns show-for-medium-up">
+
+
+
+
+<menu class="list">
+    <ul> 
+      <!-- $Id: list_menu.tt2 12618 2016-01-04 16:20:44Z lumineau $ -->
+
+
+
+
+<li class="menu_title"><label><i class="fa fa-envelope-square fa-lg"></i> List Options</label></li>
+
+<!-- $Id: list_panel.tt2 12505 2015-11-12 10:40:26Z lumineau $ -->
+
+
+
+
+
+<li class="nolink">
+  <span>Owners:
+    <span>
+    Frédéric Clavert, Marin Dacos, Martin Grandjean, Pierre Mounier</span>
+
+    
+  </span>
+</li>
+
+<li class="nolink">
+  <span>Moderators:
+    <span>
+    
+      <i>(same as owners)</i>
+    
+    </span>
+
+    
+  </span>
+</li>
+
+
+
+<li>
+  
+    
+ <script type="text/javascript">
+ <!-- 
+ document.write("<a href=\"mailto:dh-request" + "@" + "groupes.renater.fr\">Contact owners</a>")
+ // -->
+ </script>
+  
+</li>
+
+<!-- end list_panel.tt2 -->
+
+
+<li class="divider"></li>
+<li></li>
+
+<li class=""><a href="https://groupes.renater.fr/sympa/info/dh">List Home</a></li>
+
+
+
+
+
+
+
+
+  
+    
+    <li class=""><a  href="https://groupes.renater.fr/sympa/subscribe/dh" >Subscribe</a></li>
+  
+
+  
+    
+    <li class=""><a href="https://groupes.renater.fr/sympa/sigrequest/dh">Unsubscribe</a></li>
+  
+
+
+
+<li class="divider"></li>
+<li></li>
+
+  
+    
+    <li class="active"><a href="https://groupes.renater.fr/sympa/arc/dh" >Archive</a></li>
+  
+
+
+
+  <li class="menuInactive2"><span>Post</span></li>
+
+
+
+
+
+  
+    
+    <li class=""><a href="https://groupes.renater.fr/sympa/d_read/dh/" >Shared documents</a></li>
+  
+
+
+
+<!-- additionnal_list_menu_links.tt2 groupes.renater.fr -->
+
+ 
+
+
+
+
+
+<!-- lien vers evento -->
+<li class="menuLinks"><a href="https://evento.renater.fr/" >Prise de rendez-vous</a></li>
+
+<!-- end additionnal_list_menu_links.tt2 groupes.renater.fr -->
+
+
+<!-- end list_menu.tt2 -->
+
+    </ul>
+</menu>
+
+
+</aside>
+
+
+<!-- for responsive view -->
+
+    
+        <nav class="top-bar hide-for-medium-up" data-topbar role="navigation">
+            <ul class="title-area">
+                <li class="name">
+                </li>
+                <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+                <li class="toggle-topbar menu-icon"><a href="#"><span>List Options Menu</span></a></li>
+            </ul>
+        <section class="top-bar-section  hide-for-medium-up">
+          <ul class="right">
+            <!-- $Id: list_menu.tt2 12618 2016-01-04 16:20:44Z lumineau $ -->
+
+
+
+
+<li class="menu_title"><label><i class="fa fa-envelope-square fa-lg"></i> List Options</label></li>
+
+<!-- $Id: list_panel.tt2 12505 2015-11-12 10:40:26Z lumineau $ -->
+
+
+
+
+
+<li class="nolink">
+  <span>Owners:
+    <span>
+    Frédéric Clavert, Marin Dacos, Martin Grandjean, Pierre Mounier</span>
+
+    
+  </span>
+</li>
+
+<li class="nolink">
+  <span>Moderators:
+    <span>
+    
+      <i>(same as owners)</i>
+    
+    </span>
+
+    
+  </span>
+</li>
+
+
+
+<li>
+  
+    
+ <script type="text/javascript">
+ <!-- 
+ document.write("<a href=\"mailto:dh-request" + "@" + "groupes.renater.fr\">Contact owners</a>")
+ // -->
+ </script>
+  
+</li>
+
+<!-- end list_panel.tt2 -->
+
+
+<li class="divider"></li>
+<li></li>
+
+<li class=""><a href="https://groupes.renater.fr/sympa/info/dh">List Home</a></li>
+
+
+
+
+
+
+
+
+  
+    
+    <li class=""><a  href="https://groupes.renater.fr/sympa/subscribe/dh" >Subscribe</a></li>
+  
+
+  
+    
+    <li class=""><a href="https://groupes.renater.fr/sympa/sigrequest/dh">Unsubscribe</a></li>
+  
+
+
+
+<li class="divider"></li>
+<li></li>
+
+  
+    
+    <li class="active"><a href="https://groupes.renater.fr/sympa/arc/dh" >Archive</a></li>
+  
+
+
+
+  <li class="menuInactive2"><span>Post</span></li>
+
+
+
+
+
+  
+    
+    <li class=""><a href="https://groupes.renater.fr/sympa/d_read/dh/" >Shared documents</a></li>
+  
+
+
+
+<!-- additionnal_list_menu_links.tt2 groupes.renater.fr -->
+
+ 
+
+
+
+
+
+<!-- lien vers evento -->
+<li class="menuLinks"><a href="https://evento.renater.fr/" >Prise de rendez-vous</a></li>
+
+<!-- end additionnal_list_menu_links.tt2 groupes.renater.fr -->
+
+
+<!-- end list_menu.tt2 -->
+
+            </ul>
+        </section>
+    </nav>
+    
+
+
+<!-- end aside_menu.tt2 -->
+
+
+    
+    <main id="content-inner" class="medium-9 columns"><a name="content-inner"></a>
+
+      
+      
+       <!-- $Id: title.tt2 11846 2015-01-15 04:15:17Z sikeda $ -->
+<h1 style="padding-top: 10px;"><script type="text/javascript">
+ <!--
+ document.write("dh" + "@" + "groupes.renater.fr")
+ // --></script></h1>
+<!-- end title.tt2 -->
+
+       <p><b>Subject:</b> Liste francophone de discussion autour des Digital Humanities (DH) </p>
+      
+
+        <!-- $Id: nav.tt2 12449 2015-10-19 14:53:07Z lumineau $ -->
+
+
+
+
+
+
+
+
+
+
+<!-- end nav.tt2 -->
+
+
+        
+        
+        <!-- $Id: arc.tt2 12189 2015-06-11 11:45:38Z david.verdin $ -->
+<!-- begin : this part is generated by mhonarc using mhonarc-ressources.tt2 -->
+<div class="block">
+<h2>Text archives <a  href="https://groupes.renater.fr/sympa/nomenu/help/arc" title="Open in a new window" onclick="window.open('','wws_help','toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=yes,resizable=yes,copyhistory=no,width=400,height=200')" target="wws_help"><i class="fa fa-question-circle" title="Help"></i></a></h2>
+<br />
+
+<!-- MHonArc v2.6.19 -->
+<!--X-Subject: [DH] Humanistica rejoint ADHO -->
+<!--X-From-R13: Xbunaa Vbyynaq &#60;wbunaa.ubyynaqNpnzchf&#45;pbaqbeprg.se> -->
+<!--X-Date: Tue, 19 Jul 2016 10:46:36 +0200 -->
+<!--X-Message-Id: 0378be33&#45;8aa1&#45;3463&#45;7e9e&#45;6df9ecd4e070@campus&#45;condorcet.fr -->
+<!--X-Content-Type: multipart/alternative -->
+<!--X-Head-End-->
+
+<!--X-Body-Begin-->
+<!--X-User-Header-->
+<!--X-User-Header-End-->
+<!--X-TopPNI-->
+
+<div id="ActionHeader">
+   <div class="text_center"><h2>[DH] Humanistica rejoint ADHO</h2></div><br />
+   <span class="search_form">
+     <a class="ArcMenuLinksSortInactive" href="mail1.html#00017">Chronological</a>
+     <a class="ArcMenuLinksSortInactive" href="thrd1.html#00017">Thread</a>&nbsp;
+   </span>
+   <ul class="MainMenu">
+     <a class="ArcMenuLinks" href="msg00016.html">&lt;</a>
+ Chronological <a class="ArcMenuLinks" href="msg00018.html">&gt;</a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="ArcMenuLinks" href="msg00016.html">&lt;</a>
+  Thread <a class="ArcMenuLinks" href="msg00018.html">&gt;</a>
+
+   </ul>
+</div>
+<div>
+
+<!-- end header -->
+
+
+<!--X-TopPNI-End-->
+<!--X-MsgBody-->
+<!--X-Subject-Header-Begin-->
+
+
+
+<div class="block">
+
+
+<!--X-Subject-Header-End-->
+<!--X-Head-of-Message-->
+<ul>
+<li><strong>From</strong>: Johann Holland &lt;
+ <script type="text/javascript">
+ <!-- 
+ document.write("johann.holland" + "@" + "campus-condorcet.fr")
+ // -->
+ </script>&gt;</li>
+<li><strong>To</strong>: 
+ <script type="text/javascript">
+ <!-- 
+ document.write("dh" + "@" + "groupes.renater.fr")
+ // -->
+ </script></li>
+<li><strong>Subject</strong>: [DH] Humanistica rejoint ADHO</li>
+<li><strong>Date</strong>: Tue, 19 Jul 2016 10:46:36 +0200</li>
+<li><strong>Organization</strong>: Campus Condorcet</li>
+</ul>
+<!--X-Head-of-Message-End-->
+<!--X-Head-Body-Sep-Begin-->
+</div>
+<hr size="1" noshade>
+<!--X-Head-Body-Sep-End-->
+<!--X-Body-of-Message-->
+<table width="100%"><tr><td bgcolor="#FFFFFF" style="background-color: #FFFFFF; color: #000000; "><font color="#000000">
+  
+  
+    <div><font size="2">Chères
+        et chers collègues,</font>
+      <div><font size="2"><br />
+        </font></div>
+      <div><font size="2">Lors du colloque DH2016,
+          auquel une partie d’entre vous ont participé, <b>Humanistica a officiellement été admise au sein
+              d’ADHO comme organisation constituante (voir
+              l’annonce complète ici)</b>. </font>Cette admission est le
+          fruit de deux années de travail, vous aviez d’ailleurs été
+          plusieurs fois associés à l’avancement de ces négociations.</div>
+      <div><font size="2"><br />
+        </font></div>
+      <div><font size="2">Conséquence : dès le 1er
+          janvier 2017, les membres d’Humanistica bénéficieront de tous
+          les avantages offerts par ADHO. Dès aujourd’hui, l’association
+          est représentée par son porte-parole, Martin Grandjean, au
+          sein du <i>Steering Committee.</i></font></div>
+      <div><font size="2"><br />
+        </font></div>
+      <div><font size="2">Une bonne occasion de vous
+          rappeler qu’il est toujours possible de <b>rejoindre
+            Humanistica </b>si ce n’est pas encore le cas et pourquoi
+          pas de faire adhérer votre institution (un document de présentation est disponible ici,
+          ainsi que notre formulaire d’adhésion).</font></div>
+      <div><font size="2"><br />
+        </font></div>
+      <div><font size="2">Pour le comité de
+          coordination d’Humanistica,</font></div>
+      <div><font size="2">Johann Holland</font></div>
+      <div><span style="font-size:14px"><br />
+        </span></div>
+      <div><span style="font-size:14px"><br />
+        </span></div>
+      <div><br />
+      </div>
+      <div><font size="1">___________________________________________</font></div>
+      <div><font size="1">Ci-dessous, le texte de
+          l’annonce, disponible en ligne à cette adresse : http://www.humanisti.ca/humanistica-adho/</font></div>
+      <div><font size="1"><br />
+        </font></div>
+      <div><b style="font-size:11px">Humanistica
+          rejoint officiellement ADHO !</b><br />
+        <br />
+        <b style="">Humanistica,
+          organisation constituante d’ADHO</b><br />
+        <font size="1">Lors de sa séance du 10 juillet 2016 à
+          Cracovie, en marge du colloque international annuel
+          des digital humanities, DH2016, le Steering Committee de
+          l’Alliance of Digital Humanities Organizations (ADHO)
+          a accepté à l’unanimité Humanistica comme organisation
+          constituante. Cette admission est le fruit de deux années de
+          travail du comité et du groupe chargé de superviser notre
+          demande : après une première prise de contact à Lausanne en
+          juillet 2014, les membres d’Humanistica s’étaient prononcés
+          à l’unanimité pour une adhésion à ADHO lors
+          d’une consultation lancée en février 2015. À l’été 2015, ADHO
+          recevait la candidature officielle de notre association,
+          amorçant la procédure d’adhésion qui aboutit aujourd’hui.
+          Humanistica est donc désormais la septième organisation
+          constituante de l’alliance, avec EADH, ACH, CSDH/SCHN,
+          centerNet, aaDH et JADH.</font><br />
+        <br />
+        <font size="1">Ci-dessous, l’annonce officielle :</font>
+        <br />
+      </div>
+      
+        <div><font size="1">Bienvenue à l’ADHO,
+            Humanistica!</font></div>
+        <div><font size="1">At its annual meeting on
+            Sunday 10 July 2016, the ADHO Steering Committee has
+            officially accepted Humanistica, L’association francophone
+            des humanités numériques/digitales as a Constituent
+            Organization of ADHO. The official starting date is 1
+            January 2017 (ADHO is held to the calendar year as fiscal
+            year), but the representative of Humanistica will be part of
+            all discussions and have voting rights from 16 July 2016
+            onwards. Humanistica will also have representation on all
+            appropriate ADHO committees. Humanistica currently has
+            around 250 French-speaking members from all over the world.
+            Bienvenue!</font></div>
+      
+      <div><font size="1"><br />
+        </font></div>
+      <div><font size="1"><b>Conséquences et
+            perspectives</b><br />
+          <br />
+          L’intégration d’Humanistica dans ADHO est prévue en plusieurs
+          étapes : alors que l’association sera représentée au sein
+          du steering committee par son porte-parole actuel, Martin
+          Grandjean dès le 16 juillet 2016, la nouvelle affiliation
+          de ses membres entrera en vigueur au 1er janvier 2017, pour
+          respecter le calendrier comptable. À partir de ce moment, les
+          membres d’Humanistica bénéficieront de tous les avantages
+          offerts par ADHO (réduction aux conférences DH, accès
+          aux bourses, droit de vote, abonnement optionnel à DSH, etc.).
+          <br />
+          Dans un contexte de réorganisation du modèle de gouvernance
+          d’ADHO, Humanistica sera également conduite à modifier ses
+          statuts pour s’adapter à cette nouvelle situation. Ce
+          chantier, déjà anticipé par le comité de coordination,
+          sera également lancé sur la base des recommandations partagées
+          par notre auditeur lors de notre assemblée générale du 8 juin
+          2016 à Luxembourg.</font></div>
+      <div><font size="1"><br />
+        </font></div>
+      <div><font size="1"><br />
+        </font></div>
+      <div><br />
+      </div>
+    </div>
+  
+
+</font></td></tr></table>
+<!--X-Body-of-Message-End-->
+<!--X-MsgBody-End-->
+<!--X-Follow-Ups-->
+<br clear="all" />
+<hr size="1" noshade>
+<UL>
+<LI><STRONG>[DH] Humanistica rejoint ADHO</STRONG>, <EM>Johann Holland, 07/19/2016</EM>
+<ul>
+<li><b><a name="00018" href="msg00018.html">Re: [DH] Humanistica rejoint ADHO</a></b>, <em>Fatiha IDMHAND, 07/19/2016</em>
+</li>
+</ul>
+</li>
+</UL>
+
+<!--X-Follow-Ups-End-->
+<!--X-References-->
+<!--X-References-End-->
+<!--X-BotPNI-->
+
+
+<!--X-BotPNI-End-->
+<!--X-User-Footer-->
+<!--X-User-Footer-End-->
+<hr size="1" noshade>
+<p><font size="-1">
+Archive powered by <a href="http://www.mhonarc.org/">MHonArc 2.6.19</a>.
+</font></p>
+
+
+
+
+</div>
+<!-- end of part generated by mhonarc -->
+<!-- end arc.tt2 -->
+
+
+ 
+
+        
+        </main><!-- End content-inner -->
+    
+
+<div class="scroll-top-wrapper ">
+	<span class="scroll-top-inner">
+		<i class="fa fa-2x fa-arrow-circle-up"></i>
+	</span>
+</div>
+
+    <div id='feedbackContainer' class='reveal-modal small' data-reveal data-reveal="">
+        <h2 class='text-center'>
+            <i class='fa fa-info-circle '> 
+                <span>
+                    Universalistes evolves!
+                </span>
+            </i>
+        </h2>
+        <p>
+            The RENATER services are constantly evolving.
+        </p>
+        <p>
+            To improve our offer, and give you a simpler and faster use of these services, we need your feedback about their usability, ergonomics.
+        </p>
+        <p>
+            So help us giving us your comments, suggestions for improvement or your wishes for new features.
+        </p> 
+        <p>
+            To do so contact use using <a href="https://feedback.renater.fr/?service=Universalistes" target='_blank'>our user feedback form</a> to detail your wishes and observations.
+        </p>
+        <hr/>
+        <span class='text-right'>
+            <label for='stop_show_feedback'>
+                <input type='checkbox' name='stop_show_feedback' id='stop_show_feedback' />
+                &nbsp; Do not show this popup again
+            </label>
+        </span>
+        <br/>
+    <a class='close-reveal-modal'>&#215;</a>
+    </div>
+
+<!-- $Id: footer.tt2 11846 2015-01-15 04:15:17Z sikeda $ -->
+
+<section class="footer">
+</section>
+
+<footer>
+    <article class="row">
+        <ul class="medium-block-grid-3 ">
+            <li>
+                <ul>
+                    <li>
+						<img src="../../../../static-sympa/icons/groupes.renater.fr/logo_renater_blanc.png" />
+					</li>
+                    <li>Réseau National de télécommunications pour la Technologie l’Enseignement et la Recherche.</li>
+                    <li>
+						<a href="https://www.renater.fr/" target="_blank">
+							<img src="../../../../static-sympa/icons/groupes.renater.fr/renater_france_square.png" />
+						</a>
+						 <a href="https://www.facebook.com/gip.renater" target="_blank">
+							<i class="fa fa-facebook-square"></i>
+						</a>
+						 <a href="https://twitter.com/RENATERnews" target="_blank">
+							<i class="fa fa-twitter-square"></i>
+						</a> 
+					</li>
+                </ul>
+            </li>
+            <li>
+                <ul >
+                    <li><h2>Resources</h2></li>
+                    <li>Lists
+                        <ul>
+                            <li><a href="https://groupes.renater.fr/sympa/search_list_request" target="">Search form</a>
+                            <li><a href="https://groupes.renater.fr/sympa/lists" target="">Index of lists</a>
+                            <li><a href="https://groupes.renater.fr/sympa/lists_categories" target="">Browse lists by categories</a>
+                        </ul>
+                    </li>
+                    <li>Documentation
+                        <ul>
+                            <li><a href="https://groupes.renater.fr/sympa/help/introduction" target="">General introduction</a>
+                            <li><a href="https://groupes.renater.fr/sympa/help/user" target="">User guide</a>
+                            <li><a href="https://groupes.renater.fr/sympa/help/admin" target="">Administrator guide</a>
+                        </ul>
+                    </li>
+                    <li>FAQ
+                        <ul>
+                            <li><a href="https://services.renater.fr/groupware/universalistes/faq" target="_blank">User FAQ</a>
+                            <li><a href="https://groupes.renater.fr/sympa/help/faqadmin" target="">Administrators FAQ</a>
+                        </ul>                    
+                    </li>
+                </ul> 
+            </li>
+            <li>
+                <ul>
+                    <li><h2>Contact us</h2></li>
+                    <li><i class="fi-marker"></i>23-25, rue Daviel - 75013 PARIS</li>                    
+                    <li><i class="fa fa-comments"></i><a href="https://feedback.renater.fr/?service=Universalistes" target="_BLANCK" data-tooltip aria-haspopup="true" title="Give us feedback about this new Universalistes version">Feedback</a></li>
+              </ul>
+
+            </li>
+        </ul>
+
+
+    </article>
+</footer>
+<aside class="row footer-copyright">
+    <ul>
+        <li class="small-12 medium-6 columns">© 2015 RENATER - All rights reserved</li>
+        <li class="small-12 medium-6 columns text-right"><img src="../../../../static-sympa/icons/favicon_sympa.png" alt="SYMPA logo" width="20" height="20"/> <a href="http://www.sympa.org/"> Powered by Sympa 6.2.13</a></li>
+    </ul>
+</aside>
+
+<!-- end footer.tt2 -->
+
+
+
+</body>
+
+<!-- end main.tt2 -->
+
+<!-- Mirrored from groupes.renater.fr/sympa/arc/dh/2016-07/msg00017.html by HTTraQt Website Copier/1.x [Karbofos 2012-2017] jeu., 29 mars 2018 22:50:11 GMT -->
+</html>

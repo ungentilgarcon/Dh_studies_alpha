@@ -1,0 +1,1857 @@
+<!DOCTYPE html>
+<html lang="en-US" xml:lang="en-US">
+<!-- $Id: main.tt2 11869 2015-01-19 12:38:09Z etiennemeleard $ -->
+
+<!-- Mirrored from groupes.renater.fr/sympa/arc/dh/2013-07/msg00026.html by HTTraQt Website Copier/1.x [Karbofos 2012-2017] jeu., 29 mars 2018 22:47:19 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+<meta charset="UTF-8" />
+<meta name="generator" content="Sympa 6.2.13" />
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+<title> dh - Re: [DH] THATCamp Saint-Malo - Association francophone des Digital humanities - arc </title>
+
+<!-- $Id: head_ui.tt2 11868 2015-05-21 12:36:46Z olivierlumineau $ -->
+<!-- Jquery-ui -->
+<link rel="stylesheet" href="../../../../static-sympa/external/jquery-ui.css" />
+
+<!-- Jqplot -->
+<link rel="stylesheet" href="../../../../static-sympa/external/jquery.jqplot.css" />
+
+<!-- Font css -->
+<link href='../../../../../fonts.googleapis.com/css277c.css?family=Raleway:400,700,900,200' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="../../../../static-sympa/external/font-awesome/css/font-awesome.css" />
+<link rel="stylesheet" href="../../../../static-sympa/fonts/foundation-icons/foundation-icons.css" />
+
+<!-- Foundation -->
+<link rel="stylesheet" href="../../../../static-sympa/external/foundation/css/foundation.css" />
+<link rel="stylesheet" href="../../../../static-sympa/external/foundation/css/normalize.css" />
+<link rel="stylesheet" href="../../../../static-sympa/external/foundation/css/responsive-tables.css" />
+
+<style>
+  select[multiple], select[size] { height: auto; background-image: none; }
+</style>
+
+
+<link rel="stylesheet" href="../../../../static-sympa/css/groupes.renater.fr/stylef0dc.css?version=6.2.13" media="screen" title="Sympa CSS" />
+
+
+<style>
+  #loadingText span:before {
+    content: "Please Wait...";
+  }
+</style>
+
+<!-- $Id: css_ie.tt2 11846 2015-01-15 04:15:17Z sikeda $ -->
+
+<!-- Specific css for IE -->
+
+<!--[if lte IE 8]>
+<style type="text/css">
+
+/* Workaround for "noscript ghost" bug */
+noscript {
+          display: block;
+          }
+
+</style>
+<![endif]-->
+
+<!--[if IE 7]>
+<style type="text/css">
+
+#subnav {
+          position:absolute;
+	  left:25em;
+          }
+
+#bandeau_top .login .MainMenuLinks {
+	                             margin-top:0.2em;
+           	                     }
+
+</style>
+<![endif]-->
+
+
+<!--[if  lte IE 7]>
+<style type="text/css">
+
+ul#MainMenuLinks {
+                   margin-left:-3em;
+                   }
+
+a.input {
+          padding: 0 0.3em;
+          }
+
+/* "vertical-align: baseline" aligns form fields on bottom of widgets */
+form input,
+form textarea,
+form select {
+             vertical-align: middle;
+             }
+.MainMenuLinks {
+                margin-bottom: 0.2em;
+                vertical-align: middle;
+                }
+
+/* Workaround for "peek-a-boo" bug. */
+a.MainMenuLinks,
+a.MainMenuLinks:hover,
+a.MainMenuLinksCurrentPage,
+a.MainMenuLinksCurrentPage:hover {
+                                  position: relative;
+                                  }
+
+</style>
+<![endif]-->
+
+
+
+<!--[if lte IE 6]>
+<style type="text/css">
+
+#logo {
+        position:absolute;
+        top:0.5em;
+        left:-5em;
+        z-index:510;
+        }
+
+#Stretcher {
+             width:99.5%;
+             }
+
+#subnav {
+          width:100%;
+	  background-color:#6679bb;
+          border:1px solid #e1e2e5;
+          border-width: 0 1px 0 0;
+          }
+
+#nav {
+       width:99%;
+       }
+
+#Footer {
+          margin: 0.5em 0.8em;
+          }
+
+#bandeau_top .login .MainMenuLinks {
+	                             margin-top:0;
+           	                     }
+
+
+</style>
+<![endif]-->
+
+<!-- end  css_ie.tt2 -->
+
+
+
+
+<!-- the following CSS have to be improved before to be used -->
+<!-- <link rel="stylesheet" href="/static-sympa/css/groupes.renater.fr/print.css" media="print" /> -->
+<!-- <link rel="alternative stylesheet" href="/static-sympa/css/groupes.renater.fr/fullPage.css" media="screen" title="View Full Page" /> -->
+<!-- <link rel="alternative stylesheet" href="/static-sympa/css/groupes.renater.fr/print-preview.css" media="screen" title="Print Preview" /> -->
+
+
+<link rel="shortcut icon" href="../../../../static-sympa/icons/groupes.renater.fr/favicon.png" />
+
+
+<!-- end head_ui.tt2 -->
+
+
+<!-- $Id: head_javascript.tt2 11868 2015-05-21 12:36:46Z olivierlumineau $ -->
+
+<script>
+<!--
+// this script only contains variable initializations.
+
+// Miscellaneous vars
+var path_cgi = 'https://groupes.renater.fr/sympa/';
+var lang = 'en-US';
+//-->
+</script>
+
+<script>
+<!--
+// A few configuration settings
+var CROSSHAIRS_LOCATION = '../../../../static-sympa/icons/crosshairs.png';
+var HUE_SLIDER_LOCATION = '../../../../static-sympa/icons/h.png';
+var HUE_SLIDER_ARROWS_LOCATION = '../../../../static-sympa/icons/position.png';
+var SAT_VAL_SQUARE_LOCATION = '../../../../static-sympa/icons/sv.png';
+
+// Variables used by the calendar js.
+var pDefaut = { 
+	"mois" : "January:February:March:April:May:June:July:August:September:October:November:December".split(":"),
+	"jour" : "Sun:Mon:Tue:Wed:Thu:Fri:Sat".split(":"),
+	"jLib" : "Sunday:Monday:Tuesday:Wednesday:Thursday:Friday:Saturday".split(":"),
+	"titre" : "Calendar",
+	"aujourdhui" : "today",
+	"debutSemaine" : 0,                      /*debut de la semaine 0=lun,1=mar,...*/
+	"jPause" : {6:true,0:true},              /*jour de pause de la semaine (samedi & dimanche)*/
+	"jFeriee": {"1-1":"Jour de l'an","1-5":"Fête du travail","8-5":"Armistice 39-45","14-7":"Fête nationale","15-8":"Ascension","1-11":"Armistice 14-18","11-11":"Toussaint","25-12":"Noël"} ,
+	"moisMoins" : "<", "moisPlus" : ">",     /*navigation par mois*/ 
+	"anneeMoins" : "<<", "anneePlus" : ">>", /*navigation par annee*/
+	"format" : "%j-%m-%a",                   /*format de sortie : %j = jour, %m = mois, %a =année*/ 
+	"date" : null, "ddeb" : "", "dfin" : "",
+	"dateMin" : null, "dateMax" : null
+}
+
+
+var param_ddeb = {"dfin" : "date_fin", "titre" : "Start date" };
+var param_dfin = {"ddeb" : "date_deb", "titre" : "End date"  };
+
+var tempo = new Array(); /*gestion de la fermeture des calendriers quand on perd le focus*/
+var nomove={"TR":0,"CENTER":0,"B":0,"P":0,"U":0,"I":0,"DIV":0,"A":0,"FONT":0,"LI":0,"PRE":0,"SPAN":0,"SUB":0,"SUP":0,"FORM":0};
+//var nomove={"TD":0,"TABLE":0};
+
+if (!('universalistes' in window))
+    window.universalistes = {};
+
+
+window.universalistes.Utilities =  {
+    /**
+     * this function allos to manage storage of feedback showing dialog
+     * @param {type} enabled: False to disable the dialog showing at next load, 
+     * true otherwhise
+     */
+    manageFeedback: function(enabled){
+        if (this.isLocalStorageAvailable()){
+            window.localStorage.setItem('universalistes_feedback',String(enabled));
+        }else{
+            this.setCookie('universalistes_feedback',String(enabled));
+        }
+    },
+
+
+    /**
+     * Allows to know if localstorage is available
+     * @returns {Boolean} True if available, false otherwhise
+     */
+    isLocalStorageAvailable: function(){
+        return ('localStorage' in window) && (window['localStorage'] !== null);
+    },
+
+/**
+     * This function allows to know if the feedback dialog has to be shown
+     * 
+     * @returns Truez if needed, false otherwhise
+     */
+    showFeedback: function(){
+        var feedback = false;
+        if (this.isLocalStorageAvailable()){
+            feedback = window.localStorage.getItem('universalistes_feedback');
+        }else{
+            feedback =  this.getCookie('universalistes_feedback');
+        }
+        return (feedback === null || feedback !== "false");
+    },
+
+    /**
+     * This function allows to store a cookie.
+     * 
+     * @param {type} cname: The cookie name
+     * @param {type} cvalue: The value to store
+     * @param {type} exdays: Cookie duration
+     * @returns {undefined}
+     */
+    setCookie: function(cname, cvalue, exdays) {
+        if (!exdays) exdays=60;
+        
+        var d = new Date();
+        d.setTime(d.getTime() + (exdays*24*60*60*1000));
+        var expires = "expires="+d.toUTCString();
+        document.cookie = cname + "=" + cvalue + "; " + expires;
+    },
+    
+    getCookie: function (cname) {
+        var name = cname + "=";
+        var ca = document.cookie.split(';');
+        for(var i=0; i<ca.length; i++) {
+            var c = ca[i];
+            while (c.charAt(0)==' ') c = c.substring(1);
+            if (c.indexOf(name) == 0) return c.substring(name.length,c.length);
+        }
+        return "";
+    }
+
+};
+//-->
+</script>
+
+<!-- Now retrieving the javascript files -->
+
+<script src="../../../../static-sympa/external/jquery.js"></script>
+
+<script src="../../../../static-sympa/external/jquery-ui.js"></script>
+
+<script src="../../../../static-sympa/external/jquery.jqplot.min.js"></script>
+<script src="../../../../static-sympa/external/jqplot.categoryAxisRenderer.min.js"></script>
+<script src="../../../../static-sympa/external/jqplot.barRenderer.min.js"></script>
+<script src="../../../../static-sympa/external/jqplot.canvasAxisTickRenderer.min.js"></script>
+<script src="../../../../static-sympa/external/jqplot.canvasTextRenderer.min.js"></script>
+
+<script src="../../../../static-sympa/js/sympa.js"></script>
+
+<!-- Foundation and other ui adaptation -->
+<!--[if lt IE 9]>
+<script type="text/javascript" src="/static-sympa/external/html5shiv/html5shiv.js"></script>
+<![endif]-->
+<script type="text/javascript" src="../../../../static-sympa/external/respondjs/respond.min.js"></script>
+<script src="../../../../static-sympa/external/foundation/js/vendor/modernizr.js"></script>
+<script src="../../../../static-sympa/external/foundation/js/vendor/fastclick.js"></script>
+<script src="../../../../static-sympa/external/foundation/js/vendor/placeholder.js"></script>
+<!--<script src="/static-sympa/external/foundation/js/vendor/jquery.js"></script>-->
+<script src="../../../../static-sympa/external/foundation/js/foundation/foundation.js"></script>
+<script src="../../../../static-sympa/external/foundation/js/foundation/foundation.topbar.js"></script>
+<script src="../../../../static-sympa/external/foundation/js/foundation/foundation.reveal.js"></script>
+<script src="../../../../static-sympa/external/foundation/js/foundation/foundation.tooltip.js"></script>
+<script src="../../../../static-sympa/external/foundation/js/foundation/foundation.accordion.js"></script>
+<script src="../../../../static-sympa/external/foundation/js/foundation/responsive-tables.js"></script>
+<script>
+$(
+function () {
+    // Loading foundation
+    $(document).foundation({
+        topbar: {
+            back_text: '<i class="fa fa-undo"></i> Back'
+        }
+    });
+
+    // Manage feedback dialog
+    
+
+    /*Top Button*/ 
+    $(document).on( 'scroll', function(){
+
+            if ($(window).scrollTop() > 100) {
+                    $('.scroll-top-wrapper').addClass('show');
+            } else {
+                    $('.scroll-top-wrapper').removeClass('show');
+            }
+    });
+
+    $('.scroll-top-wrapper').on('click', scrollToTop);
+
+});
+
+/*Top Button*/
+function scrollToTop() {
+	verticalOffset = typeof(verticalOffset) != 'undefined' ? verticalOffset : 0;
+	element = $('body');
+	offset = element.offset();
+	offsetTop = offset.top;
+	$('html, body').animate({scrollTop: offsetTop}, 500, 'linear');
+}
+</script>
+
+
+
+<!-- end head_javascript.tt2 -->
+
+
+<!-- RSS chanel -->
+        <link rel="alternate" type="application/xml" title="RSS Latest messages" href="../../../rss/latest_arc/dh84ed?count=20"/>     <link rel="alternate" type="application/xml" title="RSS Latest documents" href="../../../rss/latest_d_read/dh84ed?count=20"/>   
+ <base  /> 
+
+</head>
+
+<body onload="">
+
+
+
+<a name="top"></a>
+<noscript><em>Please activate JavaScript in your web browser</em></noscript>
+
+
+
+    
+
+
+    <!-- $Id: header.tt2 11846 2015-05-19 04:15:17Z lumineau $ -->
+<header>
+
+<nav class="top-bar" data-topbar role="navigation">
+    <ul class="title-area show-for-large-up">
+        <li class="name">
+                
+                  <a href="https://groupes.renater.fr/sympa" title="Accueil"><img src="../../../../static-sympa/icons/groupes.renater.fr/universalistes.svg" alt="Universalistes logo"></a>
+                
+        </li>
+        <li class="toggle-topbar menu-icon"><a href="#"><span>Sympa Menu</span></a></li>
+    </ul>
+
+    <ul class="title-area hide-for-large-up">
+        <li class="name">
+                
+                  <a href="https://groupes.renater.fr/sympa" title="Accueil"><img src="../../../../static-sympa/icons/groupes.renater.fr/universalistes.svg" alt="Universalistes logo"></a>
+                
+        </li>
+        <li class="toggle-topbar menu-icon"><a href="#"><span>Sympa Menu</span></a></li>
+    </ul>
+<menu class="top-bar-section">
+  <ul class="right">
+        <!-- sympa menu start --> 
+                  
+	
+		<li class=""><a  href="https://groupes.renater.fr/sympa/home"><i class="fi-home"></i>  <label>Home<label></a></li>
+		
+	
+		
+	
+                
+                <li class="has-dropdown ">
+                    <a href="#"><i class="fa fa-search"></i> <label>Search for List(s)</label></a>
+                    <ul class="dropdown">
+                        <li><a href="https://groupes.renater.fr/sympa/search_list_request"><i class="fa fa-search"></i> Search form</a></li>
+                        <li><a class="" href="https://groupes.renater.fr/sympa/lists" onclick="show('loading'); hide('content-inner');"><i class="fa fa-list"></i> Index of Lists</a></li>
+                        <li><a href="https://groupes.renater.fr/sympa/lists_categories" target=""><i class="fa fa-sitemap"></i> Browse lists by categories</a>		
+                    </ul>
+                </li>
+                
+                <li class="has-dropdown ">
+                    <a href="#"><i class="fa fa-life-ring"></i> <label>Support</label></a>
+                    <ul class="dropdown">
+                        <li><a href="https://groupes.renater.fr/sympa/help" title="Documentation"><i class="fa fa-book"></i> Documentation</a></li>
+                        <li><a href="https://groupes.renater.fr/sympa/help/faq" title="Frequently asked questions"><i class="fa fa-question"></i> FAQ</a></li>
+                        <li><a href="https://feedback.renater.fr/?service=Universalistes" target="_BLANCK" data-tooltip aria-haspopup="true" title="Give us feedback about this new Universalistes version"><i class="fa fa-comments"></i> Feedback</a></li>		
+                    </ul>
+                </li>
+
+	
+		
+	
+	
+	
+<!--	
+
+	
+		
+		<li><a class="" href="/sympa/automatic_lists_request/" ><i class="fa fa-list-alt"></i> <label></label></a></li>
+	
+
+-->
+
+        <!-- end of sympa menu-->
+        
+        <!-- login banner start -->
+          <!-- $Id: loginbanner.tt2 12556 2015-12-04 14:58:29Z lumineau $ -->
+
+
+            <li>
+              
+            <form id="use-sso" action="https://groupes.renater.fr/sympa" method="post"> 
+              <fieldset>	
+              <input type="hidden" name="previous_action" value="" />
+              <input type="hidden" name="previous_list" value="" />
+              <input type="hidden" name="referer" value="https://groupes.renater.fr/sympa/arc/dh/2013-07/https%3a%a5%a5groupes.renater.fr%a5sympa%a5arc%a5dh%a52013-07%a5msg00026.html" />
+              <input type="hidden" name="list" value="dh" />
+                <input type="hidden" name="action" value="sso_login" />
+                
+                  
+                    <input type="hidden" name="auth_service_name" value="federation_cru" />
+                    <button type="submit" name="action_sso_login" value="Connexion"><i class="fa fa-user"></i> Connexion</button>
+
+                 
+                
+              </fieldset>
+            </form>
+            
+            </li>
+            
+            
+
+
+
+<!-- end loginbanner.tt2 -->
+
+        <!-- end of login banner-->
+        
+    </ul>
+</menu>
+</nav>
+
+
+<!--<h1 class="row">dh - Re: [DH] THATCamp Saint-Malo - Association francophone des Digital humanities</h1>-->
+
+<!--<h1 class="medium-offset-3 medium-9 columns">dh - Re: [DH] THATCamp Saint-Malo - Association francophone des Digital humanities</h1>-->
+
+
+<!--<h1 class="medium-offset-3 medium-9 columns">dh - Re: [DH] THATCamp Saint-Malo - Association francophone des Digital humanities</h1>-->
+
+
+
+</header>
+<!-- end header.tt2 -->
+
+
+
+<div id="loading" class="medium-9 columns">
+   <h1 id="loadingText"><i class="fa fa-spinner fa-pulse"></i> Please Wait...</h1></div>
+</div>
+
+    <!-- $Id: aside_menu.tt2 11846 2015-01-15 04:15:17Z sikeda $ -->
+<div id="top"><a class="displayNone" href="#content-inner">Skip to Content.</a></div>
+<aside class="medium-3 columns show-for-medium-up">
+
+
+
+
+<menu class="list">
+    <ul> 
+      <!-- $Id: list_menu.tt2 12618 2016-01-04 16:20:44Z lumineau $ -->
+
+
+
+
+<li class="menu_title"><label><i class="fa fa-envelope-square fa-lg"></i> List Options</label></li>
+
+<!-- $Id: list_panel.tt2 12505 2015-11-12 10:40:26Z lumineau $ -->
+
+
+
+
+
+<li class="nolink">
+  <span>Owners:
+    <span>
+    Frédéric Clavert, Marin Dacos, Martin Grandjean, Pierre Mounier</span>
+
+    
+  </span>
+</li>
+
+<li class="nolink">
+  <span>Moderators:
+    <span>
+    
+      <i>(same as owners)</i>
+    
+    </span>
+
+    
+  </span>
+</li>
+
+
+
+<li>
+  
+    
+ <script type="text/javascript">
+ <!-- 
+ document.write("<a href=\"mailto:dh-request" + "@" + "groupes.renater.fr\">Contact owners</a>")
+ // -->
+ </script>
+  
+</li>
+
+<!-- end list_panel.tt2 -->
+
+
+<li class="divider"></li>
+<li></li>
+
+<li class=""><a href="https://groupes.renater.fr/sympa/info/dh">List Home</a></li>
+
+
+
+
+
+
+
+
+  
+    
+    <li class=""><a  href="https://groupes.renater.fr/sympa/subscribe/dh" >Subscribe</a></li>
+  
+
+  
+    
+    <li class=""><a href="https://groupes.renater.fr/sympa/sigrequest/dh">Unsubscribe</a></li>
+  
+
+
+
+<li class="divider"></li>
+<li></li>
+
+  
+    
+    <li class="active"><a href="https://groupes.renater.fr/sympa/arc/dh" >Archive</a></li>
+  
+
+
+
+  <li class="menuInactive2"><span>Post</span></li>
+
+
+
+
+
+  
+    
+    <li class=""><a href="https://groupes.renater.fr/sympa/d_read/dh/" >Shared documents</a></li>
+  
+
+
+
+<!-- additionnal_list_menu_links.tt2 groupes.renater.fr -->
+
+ 
+
+
+
+
+
+<!-- lien vers evento -->
+<li class="menuLinks"><a href="https://evento.renater.fr/" >Prise de rendez-vous</a></li>
+
+<!-- end additionnal_list_menu_links.tt2 groupes.renater.fr -->
+
+
+<!-- end list_menu.tt2 -->
+
+    </ul>
+</menu>
+
+
+</aside>
+
+
+<!-- for responsive view -->
+
+    
+        <nav class="top-bar hide-for-medium-up" data-topbar role="navigation">
+            <ul class="title-area">
+                <li class="name">
+                </li>
+                <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+                <li class="toggle-topbar menu-icon"><a href="#"><span>List Options Menu</span></a></li>
+            </ul>
+        <section class="top-bar-section  hide-for-medium-up">
+          <ul class="right">
+            <!-- $Id: list_menu.tt2 12618 2016-01-04 16:20:44Z lumineau $ -->
+
+
+
+
+<li class="menu_title"><label><i class="fa fa-envelope-square fa-lg"></i> List Options</label></li>
+
+<!-- $Id: list_panel.tt2 12505 2015-11-12 10:40:26Z lumineau $ -->
+
+
+
+
+
+<li class="nolink">
+  <span>Owners:
+    <span>
+    Frédéric Clavert, Marin Dacos, Martin Grandjean, Pierre Mounier</span>
+
+    
+  </span>
+</li>
+
+<li class="nolink">
+  <span>Moderators:
+    <span>
+    
+      <i>(same as owners)</i>
+    
+    </span>
+
+    
+  </span>
+</li>
+
+
+
+<li>
+  
+    
+ <script type="text/javascript">
+ <!-- 
+ document.write("<a href=\"mailto:dh-request" + "@" + "groupes.renater.fr\">Contact owners</a>")
+ // -->
+ </script>
+  
+</li>
+
+<!-- end list_panel.tt2 -->
+
+
+<li class="divider"></li>
+<li></li>
+
+<li class=""><a href="https://groupes.renater.fr/sympa/info/dh">List Home</a></li>
+
+
+
+
+
+
+
+
+  
+    
+    <li class=""><a  href="https://groupes.renater.fr/sympa/subscribe/dh" >Subscribe</a></li>
+  
+
+  
+    
+    <li class=""><a href="https://groupes.renater.fr/sympa/sigrequest/dh">Unsubscribe</a></li>
+  
+
+
+
+<li class="divider"></li>
+<li></li>
+
+  
+    
+    <li class="active"><a href="https://groupes.renater.fr/sympa/arc/dh" >Archive</a></li>
+  
+
+
+
+  <li class="menuInactive2"><span>Post</span></li>
+
+
+
+
+
+  
+    
+    <li class=""><a href="https://groupes.renater.fr/sympa/d_read/dh/" >Shared documents</a></li>
+  
+
+
+
+<!-- additionnal_list_menu_links.tt2 groupes.renater.fr -->
+
+ 
+
+
+
+
+
+<!-- lien vers evento -->
+<li class="menuLinks"><a href="https://evento.renater.fr/" >Prise de rendez-vous</a></li>
+
+<!-- end additionnal_list_menu_links.tt2 groupes.renater.fr -->
+
+
+<!-- end list_menu.tt2 -->
+
+            </ul>
+        </section>
+    </nav>
+    
+
+
+<!-- end aside_menu.tt2 -->
+
+
+    
+    <main id="content-inner" class="medium-9 columns"><a name="content-inner"></a>
+
+      
+      
+       <!-- $Id: title.tt2 11846 2015-01-15 04:15:17Z sikeda $ -->
+<h1 style="padding-top: 10px;"><script type="text/javascript">
+ <!--
+ document.write("dh" + "@" + "groupes.renater.fr")
+ // --></script></h1>
+<!-- end title.tt2 -->
+
+       <p><b>Subject:</b> Liste francophone de discussion autour des Digital Humanities (DH) </p>
+      
+
+        <!-- $Id: nav.tt2 12449 2015-10-19 14:53:07Z lumineau $ -->
+
+
+
+
+
+
+
+
+
+
+<!-- end nav.tt2 -->
+
+
+        
+        
+        <!-- $Id: arc.tt2 12189 2015-06-11 11:45:38Z david.verdin $ -->
+<!-- begin : this part is generated by mhonarc using mhonarc-ressources.tt2 -->
+<div class="block">
+<h2>Text archives <a  href="https://groupes.renater.fr/sympa/nomenu/help/arc" title="Open in a new window" onclick="window.open('','wws_help','toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=yes,resizable=yes,copyhistory=no,width=400,height=200')" target="wws_help"><i class="fa fa-question-circle" title="Help"></i></a></h2>
+<br />
+
+<!-- MHonArc v2.6.16 -->
+<!--X-Subject: Re: [DH] THATCamp Saint&#45;Malo &#45; Association francophone des Digital humanities -->
+<!--X-From-R13: @vpbynf Zrtenaq <avpbynf.yrtenaqNbofcz.se> -->
+<!--X-Date: Mon, 15 Jul 2013 10:46:43 +0200 -->
+<!--X-Message-Id: 20130715084643.GC15286@roberto -->
+<!--X-Content-Type: text/plain -->
+<!--X-Reference: CAKYJn_zsJZXAvbNfKbjiwM9koQApXADAkVGP7szj&#45;jsP7vZFVA@mail.gmail.com -->
+<!--X-Reference: 51D687DE.90908@huma&#45;num.fr -->
+<!--X-Reference: CACcznmGtcoTbT9S2wSEfmY6MdOU6R3pwK6nVcP&#45;jHOFoa2xPZw@mail.gmail.com -->
+<!--X-Reference: CA+WwTNxOcpzC_v7ht6fVQ=HCW=MM2cTNQLy9miXDsPdmgdeOQg@mail.gmail.com -->
+<!--X-Reference: CAKYJn_ycj_MEhDDyYLvRzBCZRRHUCLtn79qUB2ksEx&#45;=wsHZeg@mail.gmail.com -->
+<!--X-Reference: CACcznmGuXuxTUPFCXK+V0RAOCyYsiad3nOrSJczSZQvr+wurvA@mail.gmail.com -->
+<!--X-Reference: 681B7652&#45;FBF9&#45;43D2&#45;ADF8&#45;ED43DC86A916@unil.ch -->
+<!--X-Reference: 51E028C2.9050900@huma&#45;num.fr -->
+<!--X-Reference: CFF64429&#45;145B&#45;42D9&#45;BE3A&#45;8882CE1FE966@mac.com -->
+<!--X-Head-End-->
+
+<!--X-Body-Begin-->
+<!--X-User-Header-->
+<!--X-User-Header-End-->
+<!--X-TopPNI-->
+
+<div id="ActionHeader">
+   <div class="text_center"><h2>Re: [DH] THATCamp Saint-Malo - Association francophone des Digital humanities</h2></div><br />
+   <span class="search_form">
+     <a class="ArcMenuLinksSortInactive" href="mail1.html#00026">Chronological</a>
+     <a class="ArcMenuLinksSortInactive" href="thrd1.html#00026">Thread</a>&nbsp;
+   </span>
+   <ul id="MainMenuLinks">
+     <a class="ArcMenuLinks" href="msg00027.html">&lt;</a>
+ Chronological <a class="ArcMenuLinks" href="msg00028.html">&gt;</a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="ArcMenuLinks" href="msg00027.html">&lt;</a>
+  Thread <a class="ArcMenuLinks" href="msg00028.html">&gt;</a>
+
+   </ul>
+</div>
+<div>
+
+<!-- end header -->
+
+
+<!--X-TopPNI-End-->
+<!--X-MsgBody-->
+<!--X-Subject-Header-Begin-->
+
+
+
+<div class="block">
+
+
+<!--X-Subject-Header-End-->
+<!--X-Head-of-Message-->
+<ul>
+<li><strong>From</strong>: Nicolas Legrand &lt;
+ <script type="text/javascript">
+ <!-- 
+ document.write("nicolas.legrand" + "@" + "obspm.fr")
+ // -->
+ </script>&gt;</li>
+<li><strong>To</strong>: antoine Courtin &lt;
+ <script type="text/javascript">
+ <!-- 
+ document.write("antoine.courtin" + "@" + "mac.com")
+ // -->
+ </script>&gt;</li>
+<li><strong>Cc</strong>: Stéphane Pouyllau &lt;
+ <script type="text/javascript">
+ <!-- 
+ document.write("stephane.pouyllau" + "@" + "huma-num.fr")
+ // -->
+ </script>&gt;,        
+ <script type="text/javascript">
+ <!-- 
+ document.write("dh" + "@" + "groupes.renater.fr")
+ // -->
+ </script></li>
+<li><strong>Subject</strong>: Re: [DH] THATCamp Saint-Malo - Association francophone des Digital humanities</li>
+<li><strong>Date</strong>: Mon, 15 Jul 2013 10:46:43 +0200</li>
+</ul>
+<!--X-Head-of-Message-End-->
+<!--X-Head-Body-Sep-Begin-->
+</div>
+<hr size="1" noshade>
+<!--X-Head-Body-Sep-End-->
+<!--X-Body-of-Message-->
+Bonjour,<br>
+<br>
+Je m'associe à Antoine pour dire que je suis aussi intéressé par une<br>
+telle structure. Dans mon cas je me suis progressivement éloigné des<br>
+DH au point d'être actuellement sur un poste qui n'a rien à voir<br>
+avec. Depuis quelques mois, je me dis « Ha ça ! Je regrette,<br>
+j'aimerais faire des DH à nouveau » et le point d'entrée ne m'apparaît<br>
+pas évident, notamment sur le signalement des postes ouverts aux<br>
+concours ou à la mutation.<br>
+<br>
+Cordialement,<br>
+<br>
+-- <br>
+Nicolas Legrand<br>
+Observatoire de Paris<br>
+DIO - Administrateur système et réseau<br>
+01 45 07 71 95<br>
+<a  rel="nofollow" href="http://perso.obspm.fr/nicolas.legrand/">http://perso.obspm.fr/nicolas.legrand/</a><br>
+<br>
+<br>
+On Fri, Jul 12, 2013 at 08:19:16PM +0200, antoine Courtin wrote:<br>
+&gt;<i> Bonjour à tous,</i><br>
+&gt;<i> </i><br>
+&gt;<i> Je me permets de m'immiscer dans la conversation même si je ne suis pas un </i><br>
+&gt;<i> ténor des DH pour reprendre l'expression de Claire Clivaz ! </i><br>
+&gt;<i> Mais en lisant les derniers échanges concernant un espace d'information </i><br>
+&gt;<i> pour les étudiants aux profils DH et des rencontres entre prestataires, </i><br>
+&gt;<i> auto-entrepeneurs, institutions, je me suis vraiment senti concerné ! </i><br>
+&gt;<i> </i><br>
+&gt;<i> A l'issue du master de l'École des chartes, il y a maintenant 3 ans (déjà), </i><br>
+&gt;<i> je me suis posé toutes ces questions : comment continuer dans la voie des </i><br>
+&gt;<i> DH, où puis-je commencer à travailler, tenter le concours du CNRS, pour </i><br>
+&gt;<i> quels postes, existe-il des postes chez des prestataires proche des DH, et </i><br>
+&gt;<i> si je me lancais en auto-entrepreneur, etc… ?</i><br>
+&gt;<i> Finalement, j'ai accepté un poste au sein d'un éditeur de logiciel pour le </i><br>
+&gt;<i> monde patrimonial que je quitte très prochainement pour rejoindre une </i><br>
+&gt;<i> structure publique. Je suis donc un peu entre les deux et effectivement la </i><br>
+&gt;<i> (future) association peut être un lieu privilégié et qui aurait pu, dans </i><br>
+&gt;<i> mon cas, m'apporter des réponses et ainsi m'aider à faire des choix. </i><br>
+&gt;<i> Et je ne pense pas être le seul dans cette situation pour en avoir discuté  </i><br>
+&gt;<i> ! </i><br>
+&gt;<i> </i><br>
+&gt;<i> Certes, il s'agit là de ma petite expérience mais révèle, je pense, une </i><br>
+&gt;<i> vraie attente.</i><br>
+&gt;<i> </i><br>
+&gt;<i> Bien à vous, </i><br>
+&gt;<i> </i><br>
+&gt;<i> Antoine Courtin</i><br>
+&gt;<i> @seeksanusername</i><br>
+&gt;<i> </i><br>
+&gt;<i> Le 12 juil. 2013 à 18:03, Stéphane Pouyllau </i><br>
+&gt;<i> &lt;
+ <script type="text/javascript">
+ <!-- 
+ document.write("stephane.pouyllau" + "@" + "huma-num.fr")
+ // -->
+ </script>&gt;</i><br>
+&gt;<i>  a écrit :</i><br>
+&gt;<i> </i><br>
+&gt;<i> &gt; Bonjour,</i><br>
+&gt;<i> &gt; Je pense aussi qu'il faudra que l'asso soit un espace d'information pour </i><br>
+&gt;<i> &gt; des étudiants en fin de masters (de type de celui de Paris 1 ou de Paris </i><br>
+&gt;<i> &gt; 10) dont la technicité en font des bons candidats pour des postes d'IE en </i><br>
+&gt;<i> &gt; DH (même si c'est rare en ce moment hélas). Pourrait-elle être le siège </i><br>
+&gt;<i> &gt; d'un forum annuel (une partie du THATCamp ?) pour des rencontres entre </i><br>
+&gt;<i> &gt; prestataires, auto-entrepreneurs, futurs professionnels, étudiants ? Dans </i><br>
+&gt;<i> &gt; l'idée de : &quot;je ne trouve pas de poste, comment me lancer en </i><br>
+&gt;<i> &gt; auto-entrepreneur ?&quot; (qui est une réalité aujourd'hui).</i><br>
+&gt;<i> &gt; Bien à vous,</i><br>
+&gt;<i> &gt; S.</i><br>
+&gt;<i> &gt; </i><br>
+&gt;<i> &gt; Le 09/07/13 15:28, Claire Clivaz a écrit :</i><br>
+&gt;<i> &gt;&gt; Bonjour à tous!</i><br>
+&gt;<i> &gt;&gt; </i><br>
+&gt;<i> &gt;&gt; Je pense qu'avec cette suggestion de Pierre, on commence à avoir un</i><br>
+&gt;<i> &gt;&gt; chemin intéressant un modèle de relation à ADHO. En tant que membre du</i><br>
+&gt;<i> &gt;&gt; comité EADH/LLC dès août 2013, je suis prête à tenter la discussion sur</i><br>
+&gt;<i> &gt;&gt; ce point avec eux (assouplir la fameuse obligation de la revue!), si le</i><br>
+&gt;<i> &gt;&gt; THATCamp de St-Malo va dans ce sens. En tous cas, ne nous excluons pas</i><br>
+&gt;<i> &gt;&gt; des contacts DH internationaux...</i><br>
+&gt;<i> &gt;&gt; </i><br>
+&gt;<i> &gt;&gt; Une assemblée annuelle, parfait. Pour le lieu, à voir au fur et à mesure</i><br>
+&gt;<i> &gt;&gt; des événements ce qui est adéquat. Par exemple le dh2014 à Lausanne peut</i><br>
+&gt;<i> &gt;&gt; offrir un cadre rassembleur pour une prochaine assemblée (8-11 juillet</i><br>
+&gt;<i> &gt;&gt; 2014).</i><br>
+&gt;<i> &gt;&gt; </i><br>
+&gt;<i> &gt;&gt; Je suis en faveur d'un mélange d'assemblée d'individus et</i><br>
+&gt;<i> &gt;&gt; d'institutions: le lien aux institutions est très important également,</i><br>
+&gt;<i> &gt;&gt; notamment pour permettre une bonne participation des francophones «au</i><br>
+&gt;<i> &gt;&gt; loin» (Canada, Afrique, etc.). Qui a des contacts avec des DH'ers en</i><br>
+&gt;<i> &gt;&gt; Afrique francophone notamment? Qui pourrait-on inviter à venir à St-Malo?</i><br>
+&gt;<i> &gt;&gt; </i><br>
+&gt;<i> &gt;&gt; Enfin, comment donner la voix au plus de DH'ers francophones possibles</i><br>
+&gt;<i> &gt;&gt; dans cette association? Il nous faudra être inventifs sur ce point. Sur</i><br>
+&gt;<i> &gt;&gt; cette liste, ce sont plutôt les ténors qui s'expriment :-) Ou les mezzo</i><br>
+&gt;<i> &gt;&gt; soprano, enfin, ceux qui carburent déjà pas mal institutionnellement. Le</i><br>
+&gt;<i> &gt;&gt; THATCamp de St-Malo permettra sans doute de rééquilibrer les choses.</i><br>
+&gt;<i> &gt;&gt; </i><br>
+&gt;<i> &gt;&gt; Avec mes salutations depuis la journée berlinoise sur la rechercher</i><br>
+&gt;<i> &gt;&gt; digitale et l'Holocauste,</i><br>
+&gt;<i> &gt;&gt; </i><br>
+&gt;<i> &gt;&gt; Claire Clivaz</i><br>
+&gt;<i> &gt;&gt; </i><br>
+&gt;<i> &gt;&gt; </i><br>
+&gt;<i> &gt;&gt; Le 9 juil. 2013 à 15:14, Pierre Mounier a écrit :</i><br>
+&gt;<i> &gt;&gt; </i><br>
+&gt;<i> &gt;&gt;&gt; Bonjour,</i><br>
+&gt;<i> &gt;&gt;&gt; </i><br>
+&gt;<i> &gt;&gt;&gt; j'écarte tout de suite la remarque perfide présente en figure de</i><br>
+&gt;<i> &gt;&gt;&gt; prétérition parce qu'une association savante n'est pas un parti</i><br>
+&gt;<i> &gt;&gt;&gt; politique ; je ne pense pas que nous voulions présenter des listes</i><br>
+&gt;<i> &gt;&gt;&gt; &quot;digital humanities&quot; aux prochaines élections. (quoique, cela pourrait</i><br>
+&gt;<i> &gt;&gt;&gt; être assez drôle  ;-) )</i><br>
+&gt;<i> &gt;&gt;&gt; </i><br>
+&gt;<i> &gt;&gt;&gt; Sur la question de l'affiliation, je suis sensible aux arguments</i><br>
+&gt;<i> &gt;&gt;&gt; avancés et cela me fait réfléchir finalement. Ce n'est pas seulement</i><br>
+&gt;<i> &gt;&gt;&gt; une question géostratégique de zones linguistiques, ce n'est pas</i><br>
+&gt;<i> &gt;&gt;&gt; seulement une stratification historique du développement des DH, mais</i><br>
+&gt;<i> &gt;&gt;&gt; cela renvoie aussi à la question de la coexistence de plusieurs</i><br>
+&gt;<i> &gt;&gt;&gt; manières de faire des DH à l'intérieur d'un champ qui n'est pas du</i><br>
+&gt;<i> &gt;&gt;&gt; tout unifié. Du coup, sinon nous voulons que cette association soit</i><br>
+&gt;<i> &gt;&gt;&gt; une réussite, il est très important qu'elle ne soit pas excluante, ni</i><br>
+&gt;<i> &gt;&gt;&gt; dans un sens ni dans l'autre (je voyais l'exclusion dans un sens, je</i><br>
+&gt;<i> &gt;&gt;&gt; ne voyais pas qu'elle pouvait aussi opérer dans l'autre sens), pour</i><br>
+&gt;<i> &gt;&gt;&gt; que tous les acteurs avec leurs différentes sensibilités puissent s'y</i><br>
+&gt;<i> &gt;&gt;&gt; retrouver (d'où l'importance du basisme, mais je reviendrai à la</i><br>
+&gt;<i> &gt;&gt;&gt; charge à un autre moment ;-) ).</i><br>
+&gt;<i> &gt;&gt;&gt; </i><br>
+&gt;<i> &gt;&gt;&gt; Lorsqu'on veut s'inscrire à un service en ligne, on a le choix entre</i><br>
+&gt;<i> &gt;&gt;&gt; plusieurs méthodes d'authentification : via Twitter, Facebook, ou en</i><br>
+&gt;<i> &gt;&gt;&gt; se créant un compte. Ne peut-on pas imaginer un dispositif similaire</i><br>
+&gt;<i> &gt;&gt;&gt; pour notre association, à laquelle on pourrait adhérer via</i><br>
+&gt;<i> &gt;&gt;&gt; l'abonnement à LLC, ou de manière autonome, au choix de l'adhérent ?</i><br>
+&gt;<i> &gt;&gt;&gt; </i><br>
+&gt;<i> &gt;&gt;&gt; Sinon, pour l'AG annuelle en même temps que le ThatCamp, je trouve que</i><br>
+&gt;<i> &gt;&gt;&gt; c'est une très bonne idée.</i><br>
+&gt;<i> &gt;&gt;&gt; </i><br>
+&gt;<i> &gt;&gt;&gt; Amitiés,</i><br>
+&gt;<i> &gt;&gt;&gt; </i><br>
+&gt;<i> &gt;&gt;&gt; </i><br>
+&gt;<i> &gt;&gt;&gt; --</i><br>
+&gt;<i> &gt;&gt;&gt; Pierre Mounier</i><br>
+&gt;<i> &gt;&gt;&gt; Directeur adjoint - Centre pour l'édition électronique ouverte</i><br>
+&gt;<i> &gt;&gt;&gt; Associate Director - Centre for Open Electronic Publishing**</i><br>
+&gt;<i> &gt;&gt;&gt; </i><br>
+&gt;<i> &gt;&gt;&gt; EHESS</i><br>
+&gt;<i> &gt;&gt;&gt; 190-198 avenue de France</i><br>
+&gt;<i> &gt;&gt;&gt; 75244 Paris cedex 13</i><br>
+&gt;<i> &gt;&gt;&gt; Bureau/Office 447</i><br>
+&gt;<i> &gt;&gt;&gt; Mob. 06 61 98 31 86</i><br>
+&gt;<i> &gt;&gt;&gt; Twitter : @piotrr70</i><br>
+&gt;<i> &gt;&gt;&gt; </i><br>
+&gt;<i> &gt;&gt;&gt; </i><br>
+&gt;<i> &gt;&gt;&gt; </i><br>
+&gt;<i> &gt;&gt;&gt; 2013/7/8 Frédéric Clavert </i><br>
+&gt;<i> &gt;&gt;&gt; &lt;
+ <script type="text/javascript">
+ <!-- 
+ document.write("frederic" + "@" + "clavert.net")
+ // -->
+ </script></i><br>
+&gt;<i> &gt;&gt;&gt; &lt;mailto:
+ <script type="text/javascript">
+ <!-- 
+ document.write("frederic" + "@" + "clavert.net")
+ // -->
+ </script>&gt;&gt;</i><br>
+&gt;<i> &gt;&gt;&gt; </i><br>
+&gt;<i> &gt;&gt;&gt;    Bonjour à tous,</i><br>
+&gt;<i> &gt;&gt;&gt; </i><br>
+&gt;<i> &gt;&gt;&gt;    Merci à Pierre et à Marin pour leurs contributions.</i><br>
+&gt;<i> &gt;&gt;&gt;    J'approuve le message de Pierre, mais avec une nuance sur deux </i><br>
+&gt;<i> &gt;&gt;&gt; points.</i><br>
+&gt;<i> &gt;&gt;&gt; </i><br>
+&gt;<i> &gt;&gt;&gt;    Le premier est l'affiliation à l'ALLC/ADHO. Vous avez raison sur le</i><br>
+&gt;<i> &gt;&gt;&gt;    fond. LLC est 1. une revue old school qui n'est pas compatible avec</i><br>
+&gt;<i> &gt;&gt;&gt;    notre Manifeste de 2010, 2. une revue dont le contenu n'intéresse -</i><br>
+&gt;<i> &gt;&gt;&gt;    c'est un point que vous ne mentionnez pas mais qu'il faut soulever -</i><br>
+&gt;<i> &gt;&gt;&gt;    qu'une petite partie des DH, celle qui a plus de 25 ans, quand on</i><br>
+&gt;<i> &gt;&gt;&gt;    parlait encore de Linguistic computing ou de Humanities computing.</i><br>
+&gt;<i> &gt;&gt;&gt; </i><br>
+&gt;<i> &gt;&gt;&gt;    MAIS le risque de ne pas s'affilier est de tenir une partie du monde</i><br>
+&gt;<i> &gt;&gt;&gt;    francophone à l'écart de l'association francophone, car pour le</i><br>
+&gt;<i> &gt;&gt;&gt;    moment, en termes d'organisation et de réputation, ce n'est pas le</i><br>
+&gt;<i> &gt;&gt;&gt;    monde francophone qui domine et appartenir au DH &quot;global&quot; que</i><br>
+&gt;<i> &gt;&gt;&gt;    représente l'ADHO peut paraître, à tort ou à raison, plus intéressant</i><br>
+&gt;<i> &gt;&gt;&gt;    en termes de carrière, de visibilité, de networking, etc.</i><br>
+&gt;<i> &gt;&gt;&gt; </i><br>
+&gt;<i> &gt;&gt;&gt;    Nous sommes face à un dilemme classique: soit on reste en dehors car</i><br>
+&gt;<i> &gt;&gt;&gt;    il y a incompatibilité de principe, mais nous n'aurons alors jamais </i><br>
+&gt;<i> &gt;&gt;&gt; la</i><br>
+&gt;<i> &gt;&gt;&gt;    possibilité de faire évoluer les autres, soit nous entrons, mais avec</i><br>
+&gt;<i> &gt;&gt;&gt;    le risque de s'épuiser pour un résultat faible.</i><br>
+&gt;<i> &gt;&gt;&gt; </i><br>
+&gt;<i> &gt;&gt;&gt;    Cette question peut ne pas être résolue tout de suite, mais il faudra</i><br>
+&gt;<i> &gt;&gt;&gt;    y réfléchir très sérieusement.</i><br>
+&gt;<i> &gt;&gt;&gt; </i><br>
+&gt;<i> &gt;&gt;&gt;    Le second point est l'organisation basiste. Pour avoir fait partie</i><br>
+&gt;<i> &gt;&gt;&gt;    d'associations basistes autrefois, ce type d'organisation peut poser</i><br>
+&gt;<i> &gt;&gt;&gt;    de très très gros problèmes. En fait, si l'on veut que cela marche,</i><br>
+&gt;<i> &gt;&gt;&gt;    les statuts devront être fignolés au millimètre près pour ne pas</i><br>
+&gt;<i> &gt;&gt;&gt;    ouvrir la porte aux dérives que cela peut engendrer [là, je </i><br>
+&gt;<i> &gt;&gt;&gt; m'abstiens</i><br>
+&gt;<i> &gt;&gt;&gt;    d'une remarque perfide sur le parti pirate]. Par exemple, on peut </i><br>
+&gt;<i> &gt;&gt;&gt; lier</i><br>
+&gt;<i> &gt;&gt;&gt;    l'obligation d'organiser un THATCamp par an avec l'organisation d'une</i><br>
+&gt;<i> &gt;&gt;&gt;    AG systématique. Cela permettra d'avoir une AG pleine et d'avoir de</i><br>
+&gt;<i> &gt;&gt;&gt;    nombreuses discussions. Ensuite, un comité/conseil d'administration</i><br>
+&gt;<i> &gt;&gt;&gt;    aura nécessairement un rôle politique, ne serait-ce que parce qu'il</i><br>
+&gt;<i> &gt;&gt;&gt;    représentera l'association auprès de nos chères institutions de</i><br>
+&gt;<i> &gt;&gt;&gt;    recherche et autres interlocuteurs. Là aussi, un équilibre subtil est</i><br>
+&gt;<i> &gt;&gt;&gt;    à trouver et devra se retrouver dans les statuts.</i><br>
+&gt;<i> &gt;&gt;&gt; </i><br>
+&gt;<i> &gt;&gt;&gt;    Pour les missions de l'association, on peut évoquer beaucoup de</i><br>
+&gt;<i> &gt;&gt;&gt;    choses. Mais il faut distinguer ce que l'association pourra faire </i><br>
+&gt;<i> &gt;&gt;&gt; tout</i><br>
+&gt;<i> &gt;&gt;&gt;    de suite (organisation du THATCamp annuel, par exemple) et ce qu'elle</i><br>
+&gt;<i> &gt;&gt;&gt;    pourra faire plus tard et qui impliquera plus de fonds, plus</i><br>
+&gt;<i> &gt;&gt;&gt;    d'organisation, beaucoup de membres.</i><br>
+&gt;<i> &gt;&gt;&gt; </i><br>
+&gt;<i> &gt;&gt;&gt;    Bien à vous,</i><br>
+&gt;<i> &gt;&gt;&gt;    Frédéric</i><br>
+&gt;<i> &gt;&gt;&gt; </i><br>
+&gt;<i> &gt;&gt;&gt; </i><br>
+&gt;<i> &gt;&gt;&gt;    Le 8 juillet 2013 00:16, Marin Dacos </i><br>
+&gt;<i> &gt;&gt;&gt; &lt;
+ <script type="text/javascript">
+ <!-- 
+ document.write("marin.dacos" + "@" + "openedition.org")
+ // -->
+ </script></i><br>
+&gt;<i> &gt;&gt;&gt;    </i><br>
+&gt;<i> &gt;&gt;&gt; &lt;mailto:
+ <script type="text/javascript">
+ <!-- 
+ document.write("marin.dacos" + "@" + "openedition.org")
+ // -->
+ </script>&gt;&gt;</i><br>
+&gt;<i> &gt;&gt;&gt;  a écrit :</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt; Bonjour,</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt; Je suis globalement d'accord avec ce qui a été dit.</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt; Quelques couleurs spécifiques à ajouter au tableau :</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt; - je ne crois pas que nous soyons en retard. Nous disposons de </i><br>
+&gt;<i> &gt;&gt;&gt; notre</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt; plateforme générale depuis 2010 et le premier THATCamp européen,</i><br>
+&gt;<i> &gt;&gt;&gt;    THATCamp</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt; Paris. Nous avons été lents, ensuite, sur la construction</i><br>
+&gt;<i> &gt;&gt;&gt;    institutionnelle,</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt; ce qui me semble plutôt un avantage. Nos amis anglo-américains</i><br>
+&gt;<i> &gt;&gt;&gt;    construisent</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt; des institutions et des committees à toute vitesse, se</i><br>
+&gt;<i> &gt;&gt;&gt;    focalisant trop</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt; souvent sur des questions de forme, au risque de négliger le</i><br>
+&gt;<i> &gt;&gt;&gt;    fond. Nous</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt; avons une ligne politique assez claire et il était prioritaire</i><br>
+&gt;<i> &gt;&gt;&gt;    de faire</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt; germer cette ligne (open access, opensource, formats ouverts,</i><br>
+&gt;<i> &gt;&gt;&gt;    collaboration,</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt; etc.).</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt; - il me semble que nous souffrons d'un manque de relais</i><br>
+&gt;<i> &gt;&gt;&gt;    politique du côté</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt; des organisations existantes, centres, associations</i><br>
+&gt;<i> &gt;&gt;&gt;    disciplinaires, revues,</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt; universités, organismes, agences de financement, etc. Les questions</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt; numériques, et avec elles l'open access, l'open source, les</i><br>
+&gt;<i> &gt;&gt;&gt;    formats ouverts,</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt; apparaissent encore trop comme des questions techniques, de</i><br>
+&gt;<i> &gt;&gt;&gt;    tuyauteries, et</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt; non des questions scientifiques. C'est aussi à cela que doit</i><br>
+&gt;<i> &gt;&gt;&gt;    servir une</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt; association DH francophone. Elle doit donc puiser sa force dans</i><br>
+&gt;<i> &gt;&gt;&gt;    sa base</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt; (comme le dit Pierre), mais aussi jouer un rôle de</i><br>
+&gt;<i> &gt;&gt;&gt;    représentation politique</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt; à un niveau organisationnel plus macro, qu'il soit régional,</i><br>
+&gt;<i> &gt;&gt;&gt;    national ou</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt; internationale (DARIAH et CLARIN auront besoin de notre énergie</i><br>
+&gt;<i> &gt;&gt;&gt;    et de notre</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt; connaissance du terrain !).</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt; - je vais dans le sens de Pierre concernant l'adhésion à ADHO /</i><br>
+&gt;<i> &gt;&gt;&gt;    ALLC. Nous</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt; ne pouvons pas renier le Manifeste de 2010 dès nos premiers pas.</i><br>
+&gt;<i> &gt;&gt;&gt;    Nous</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt; devons, au contraire, amener nos partenaires à renouveler leurs</i><br>
+&gt;<i> &gt;&gt;&gt;    pratiques et</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt; à investir l'open access. Les DH, ce ne sera pas business as usual.</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt; L'association francophone pourrait, comme le suggère Stéphane,</i><br>
+&gt;<i> &gt;&gt;&gt;    organiser les</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt; THATCamp, et peut-être en alternance, des colloques plus</i><br>
+&gt;<i> &gt;&gt;&gt;    classiques. Elle</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt; pourrait soutenir une revue véritablement multilingue, financer des</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt; traductions de travaux importants vers le français, et également</i><br>
+&gt;<i> &gt;&gt;&gt;    du français</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt; vers l'anglais ou l'espagnol. Elle pourrait aussi soutenir la</i><br>
+&gt;<i> &gt;&gt;&gt;    montée en</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt; compétence de nos membres, en commençant par les plus jeunes,</i><br>
+&gt;<i> &gt;&gt;&gt;    dans les</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt; divers domaines des DH (via une université d'été ou des</i><br>
+&gt;<i> &gt;&gt;&gt;    formations, ou les</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt; deux), mais aussi, et surtout, en les dotant de confiance et de</i><br>
+&gt;<i> &gt;&gt;&gt;    compétences</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt; en langue globophone. Je défends cette dernière thèse dans &quot;La</i><br>
+&gt;<i> &gt;&gt;&gt;    stratégie du</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt; sauna finlandais. Les fron­tières de Digi­tal Huma­ni­ties. Essai </i><br>
+&gt;<i> &gt;&gt;&gt; de</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt; Géo­gra­phie poli­tique d’une com­mu­nauté scientifique.&quot;</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt; <a  rel="nofollow" href="http://blog.homo-numericus.net/article11138.html">http://blog.homo-numericus.net/article11138.html</a> Une traduction</i><br>
+&gt;<i> &gt;&gt;&gt;    espagnole de</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt; ce billet vient de m'être envoyée et une traduction anglaise est</i><br>
+&gt;<i> &gt;&gt;&gt;    en cours</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt; par Daniel Paul O' Donnel. Dans ce billet, je suggère également</i><br>
+&gt;<i> &gt;&gt;&gt;    de faire</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt; d'importants efforts pour ouvrir les DH au-delà de leurs </i><br>
+&gt;<i> &gt;&gt;&gt; disciplines</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt; historiques, ce que j'appelle une ouverture des disciplines &quot;HH&quot;</i><br>
+&gt;<i> &gt;&gt;&gt;    (Humanités</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt; et Histoire) vers &quot;DC&quot; (Digital et Contemporain), c'est-à-dire</i><br>
+&gt;<i> &gt;&gt;&gt;    vers les</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt; sciences sociales et les sciences du numérique.</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt; Amitiés,</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt; Marin</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt; 2013/7/7 Pierre Mounier </i><br>
+&gt;<i> &gt;&gt;&gt; &lt;
+ <script type="text/javascript">
+ <!-- 
+ document.write("pierre.mounier" + "@" + "openedition.org")
+ // -->
+ </script></i><br>
+&gt;<i> &gt;&gt;&gt;    </i><br>
+&gt;<i> &gt;&gt;&gt; &lt;mailto:
+ <script type="text/javascript">
+ <!-- 
+ document.write("pierre.mounier" + "@" + "openedition.org")
+ // -->
+ </script>&gt;&gt;</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt;</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt; Bonjour,</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt;</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt; merci à Frédéric pour ce mail et à Nicolas d'avoir remis sur le</i><br>
+&gt;<i> &gt;&gt;&gt;    tapis ce</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt; projet qui n'a que trop tardé (nous avons entre 1 et 2 ans de</i><br>
+&gt;<i> &gt;&gt;&gt;    retard sur nos</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt; voisins allemands, italiens et espagnols). Si le ThatCamp St</i><br>
+&gt;<i> &gt;&gt;&gt;    Malo pouvait</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt; être un moment décisif, ce serait une excellente chose.</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt;</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt; J'aime beaucoup l'idée d'un petit groupe de volontaires</i><br>
+&gt;<i> &gt;&gt;&gt;    susceptibles de</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt; préparer et de présenter à la communauté des scénarios</i><br>
+&gt;<i> &gt;&gt;&gt;    possibles. Mais j'ai</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt; aussi l'impression qu'on n'avance pas beaucoup dans la</i><br>
+&gt;<i> &gt;&gt;&gt;    discussion parce que</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt; nous n'osons pas dévoiler nos batteries et que nous posons plus</i><br>
+&gt;<i> &gt;&gt;&gt;    de questions</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt; que nous ne posons sur la table des visions qui peuvent ensuite</i><br>
+&gt;<i> &gt;&gt;&gt;    être</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt; contestées et discutées. Alors, voilà, je me lance, déjà pour</i><br>
+&gt;<i> &gt;&gt;&gt;    susciter la</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt; réfutation et permettre à ceux qui le veulent de dire à leur</i><br>
+&gt;<i> &gt;&gt;&gt;    tour comment</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt; ils voient cette association :</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt;</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt; Donc, pour moi, cette association doit :</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt;</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt; 1. Etre &quot;populaire&quot; et non institutionnelle. Cela signifie qu'on </i><br>
+&gt;<i> &gt;&gt;&gt; ne</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt; pourrait y adhérer sur une base personnelle uniquement et non</i><br>
+&gt;<i> &gt;&gt;&gt;    en tant que</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt; représentant d'une institution. Je pense que les institutions</i><br>
+&gt;<i> &gt;&gt;&gt;    ont, en France</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt; en tout cas, un poids trop important par rapport aux communautés </i><br>
+&gt;<i> &gt;&gt;&gt; de</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt; pratiques ou d'intérêt et que l'association doit aussi servir à</i><br>
+&gt;<i> &gt;&gt;&gt;    rééquilibrer</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt; le paysage et faire entendre &quot;le peuple des DH&quot; francophone.</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt;</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt; 2. Disposer d'une structure légale lui permettant de collecter</i><br>
+&gt;<i> &gt;&gt;&gt;    des fonds</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt; auprès de ses adhérents en tout cas, pour soutenir</i><br>
+&gt;<i> &gt;&gt;&gt;    l'organisation des</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt; thatcamps, forums, ateliers,dont parle Stéphane, voire,</i><br>
+&gt;<i> &gt;&gt;&gt;    pourquoi pas, une</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt; conférence francophone régulière !</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt;</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt; 3. Participer aux différents réseaux qui structurent les DH au</i><br>
+&gt;<i> &gt;&gt;&gt;    niveau</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt; international et où il y a bien trop peu de francophones. Pour</i><br>
+&gt;<i> &gt;&gt;&gt;    ma part, je</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt; trouverais que ce serait une bonne idée en soi d'être affilié à</i><br>
+&gt;<i> &gt;&gt;&gt;    ALLC, mais</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt; je bute sérieusement sur les conditions d'affiliation et la</i><br>
+&gt;<i> &gt;&gt;&gt;    souscription</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt; obligatoire à LLC : 1. les tarifs d'abonnement à LLC sont</i><br>
+&gt;<i> &gt;&gt;&gt;    prohibitifs 2. les</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt; conditions de diffusion de cette revue en print et accès</i><br>
+&gt;<i> &gt;&gt;&gt;    exclusif sont</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt; archaïques et presque opposés à ce que nous voulons faire avec</i><br>
+&gt;<i> &gt;&gt;&gt;    les DH. 3.</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt; C'est donc une sorte de suffrage censitaire qui est appliqué</i><br>
+&gt;<i> &gt;&gt;&gt;    que j'ai du mal</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt; à accorder avec ma sensibilité de sans-culotte. De toute façon,</i><br>
+&gt;<i> &gt;&gt;&gt;    je pense que</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt; les deux questions doivent être déconnectées : l'association</i><br>
+&gt;<i> &gt;&gt;&gt;    peut inscrire</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt; dans ses missions de participer et d'encourager la</i><br>
+&gt;<i> &gt;&gt;&gt;    participation francophone</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt; aux DH au niveau international, et décider ultérieurement des</i><br>
+&gt;<i> &gt;&gt;&gt;    modalités et</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt; types d'action que cela impliquerait. Elle doit donc préexister à</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt; l'affiliation, si affiliation il y a, ce qui me semble</i><br>
+&gt;<i> &gt;&gt;&gt;    contradictoire avec</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt; la notion de chapitre.</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt;</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt; 4. Contribuer fortement à l'animation de la communauté en</i><br>
+&gt;<i> &gt;&gt;&gt;    développant des</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt; espaces de discussions (comme cette liste par exemple !) et en</i><br>
+&gt;<i> &gt;&gt;&gt;    accueillant</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt; des initiatives transversales comme des groupes de travail qui</i><br>
+&gt;<i> &gt;&gt;&gt;    pourraient</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt; partager les résultats de leurs travaux. Donc, une des missions de</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt; l'association pourrait être d'assurer la gestion éditoriale</i><br>
+&gt;<i> &gt;&gt;&gt;    d'outils communs</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt; : une liste (fait), un wiki, des pads, un site web.</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt;</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt; 5. Avoir un rôle de défense et illustration des DH dans le monde</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt; francophone ; faire un travail de communication, voire de</i><br>
+&gt;<i> &gt;&gt;&gt;    lobbying si elle</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt; en a les moyens, auprès des financeurs et autres décideurs,</i><br>
+&gt;<i> &gt;&gt;&gt;    mais aussi du</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt; grand public si possible.Je suis persuadé d'ailleurs que</i><br>
+&gt;<i> &gt;&gt;&gt;    l'efficacité de</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt; l'un ne va pas sans l'autre.</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt;</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt; 6. La gouvernance de l'association doit être aussi basiste que</i><br>
+&gt;<i> &gt;&gt;&gt;    possible.Je</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt; pense que son exécutif doit avoir un rôle de gestion et non un </i><br>
+&gt;<i> &gt;&gt;&gt; rôle</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt; politique. Cela n'empêche pas, à mon sens, que des prises de</i><br>
+&gt;<i> &gt;&gt;&gt;    position</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt; communes puissent être arrêtées et portées, mais uniquement en</i><br>
+&gt;<i> &gt;&gt;&gt;    tant qu'elles</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt; puissent prétendre représenter un large consensus au sein de la</i><br>
+&gt;<i> &gt;&gt;&gt;    communauté.</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt; Cela implique effectivement de renoncer à une certaine agilité</i><br>
+&gt;<i> &gt;&gt;&gt;    dans les</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt; modes de prise de décision mais évite qu'un petit nombre parle</i><br>
+&gt;<i> &gt;&gt;&gt;    au nom de</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt; tous de manière illégitime (c'est l'antithèse du modèle LQDN</i><br>
+&gt;<i> &gt;&gt;&gt;    justement qui</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt; fonctionne sur la base d'un (très) petit nombre de militants</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt; qui-professionnalisés, très compétents mais qui ne représentent</i><br>
+&gt;<i> &gt;&gt;&gt;    qu'eux).</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt;</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt; 7. Être basée dans un pays francophone. Quant au choix du pays,</i><br>
+&gt;<i> &gt;&gt;&gt;    il faut</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt; effectivement faire preuve de pragmatisme et je n'ai pas assez de</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt; connaissances en droit des associations en dehors de France</i><br>
+&gt;<i> &gt;&gt;&gt;    pour juger. Je</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt; ne connais que le droit français qui est très simple et</i><br>
+&gt;<i> &gt;&gt;&gt;    particulièrement</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt; souple. Pour des petites associations comme celle que nous</i><br>
+&gt;<i> &gt;&gt;&gt;    voulons créer, la</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt; loi de 1901 n'a pas pris une ride.</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt;</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt; Bref, je récapitule : une structure légale pour gérer un budget. 4</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt; missions principales : gérer des événements, animer la communauté,</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt; promouvoir les DH, favoriser l'insertion dans les réseaux</i><br>
+&gt;<i> &gt;&gt;&gt;    internationaux. Un</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt; exécutif de gestion et pour le reste, démocratie directe. Pas</i><br>
+&gt;<i> &gt;&gt;&gt;    de préférence</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt; pour le pays mais possible très facilement en France.</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt;</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt; Voilà, je me suis jeté à l'eau. A vous !</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt;</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt;</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt;</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt; --</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt; Pierre</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt;</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt;</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt; 2013/7/5 Stéphane Pouyllau </i><br>
+&gt;<i> &gt;&gt;&gt; &lt;
+ <script type="text/javascript">
+ <!-- 
+ document.write("stephane.pouyllau" + "@" + "huma-num.fr")
+ // -->
+ </script></i><br>
+&gt;<i> &gt;&gt;&gt;    </i><br>
+&gt;<i> &gt;&gt;&gt; &lt;mailto:
+ <script type="text/javascript">
+ <!-- 
+ document.write("stephane.pouyllau" + "@" + "huma-num.fr")
+ // -->
+ </script>&gt;&gt;</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt;&gt;</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt;&gt; Bonjour,</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt;&gt; Je soutien cette idée et les points de justification que tu</i><br>
+&gt;<i> &gt;&gt;&gt;    mentionnes.</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt;&gt; J'ajouterai qu'une association serait aussi idéale pour</i><br>
+&gt;<i> &gt;&gt;&gt;    organiser des</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt;&gt; THATCamp justement, voir prendre en charge des forums ou</i><br>
+&gt;<i> &gt;&gt;&gt;    ateliers d'échanges</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt;&gt; entre les acteurs (publics et privés, inter-établissements...).</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt;&gt;</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt;&gt; Cordialement,</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt;&gt;</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt;&gt; Stéphane.</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt;&gt;</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt;&gt; Le 04/07/13 15:30, Frédéric Clavert a écrit :</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt;&gt;</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt;&gt;&gt; Bonjour,</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt;&gt;&gt;</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt;&gt;&gt; Les organisateurs de THATCamp Saint Malo on fait passer un</i><br>
+&gt;<i> &gt;&gt;&gt;    message,</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt;&gt;&gt; récemment, sur cette non-conférence évoquant la création d'une</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt;&gt;&gt; association francophone des Digital Humanities.</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt;&gt;&gt;</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt;&gt;&gt; Je vous rappelle ici où en était nos discussions après</i><br>
+&gt;<i> &gt;&gt;&gt;    THATCamp Paris.</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt;&gt;&gt; Si vous vous en souvenez, vous pouvez aller directement en fin </i><br>
+&gt;<i> &gt;&gt;&gt; de</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt;&gt;&gt; mail, pour parler de l'organisation d'un atelier sur le sujet à</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt;&gt;&gt; Saint-Malo.</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt;&gt;&gt;</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt;&gt;&gt; Le but est de créer une association francophone: le point le </i><br>
+&gt;<i> &gt;&gt;&gt; plus</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt;&gt;&gt; important est la langue, non la géographie, notamment car des</i><br>
+&gt;<i> &gt;&gt;&gt;    travaux</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt;&gt;&gt; en commun avec le Maghreb, l'Afrique francophone, le Canada</i><br>
+&gt;<i> &gt;&gt;&gt;    ont été</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt;&gt;&gt; signalés. En Europe même, il existe des coopérations entre</i><br>
+&gt;<i> &gt;&gt;&gt;    les pays</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt;&gt;&gt; francophones du continent (France, Suisse, Luxembourg, etc).</i><br>
+&gt;<i> &gt;&gt;&gt;    En outre,</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt;&gt;&gt; l'importance de pouvoir débattre dans notre langue maternelle</i><br>
+&gt;<i> &gt;&gt;&gt;    a été</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt;&gt;&gt; mise en avant, mais aussi la possibilité de publier en dehors </i><br>
+&gt;<i> &gt;&gt;&gt; des</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt;&gt;&gt; revues anglophones, de faire valoir une plus grande égalité</i><br>
+&gt;<i> &gt;&gt;&gt;    entre les</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt;&gt;&gt; langues, tout ceci dans un contexte aujourd'hui propice à un</i><br>
+&gt;<i> &gt;&gt;&gt;    certain</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt;&gt;&gt; rééquilibrage culturel au sein des DH. Cette partie</i><br>
+&gt;<i> &gt;&gt;&gt;    correspond à un</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt;&gt;&gt; enjeu important: la représentation des Francophones au sein de </i><br>
+&gt;<i> &gt;&gt;&gt; la</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt;&gt;&gt; (trans-?)discipline des Humanités numériques. Toutefois, les</i><br>
+&gt;<i> &gt;&gt;&gt;    enjeux</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt;&gt;&gt; sont aussi &quot;franco-francophones&quot;: développer les DH dans </i><br>
+&gt;<i> &gt;&gt;&gt; l'espace</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt;&gt;&gt; francophone.</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt;&gt;&gt;</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt;&gt;&gt;</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt;&gt;&gt; Sur la forme, notre discussion n'avait pas permis de dégager</i><br>
+&gt;<i> &gt;&gt;&gt;    d'accord.</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt;&gt;&gt; Toutefois, les possibilités sont:</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt;&gt;&gt; - Réseau (cf. DEL - je citerais aussi le réseau des jeunes</i><br>
+&gt;<i> &gt;&gt;&gt;    chercheurs</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt;&gt;&gt; en histoire de l'intégration européenne, très efficace:</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt;&gt;&gt; <a  rel="nofollow" href="http://www.europe-richie.org/">http://www.europe-richie.org</a> &lt;<a  rel="nofollow" href="http://www.europe-richie.org/">http://www.europe-richie.org/</a>&gt;)</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt;&gt;&gt;</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt;&gt;&gt; - Association de facto (type quadrature du net - rejoint un</i><br>
+&gt;<i> &gt;&gt;&gt;    peu le</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt;&gt;&gt; réseau) - mais à ma connaissance, engendrerait des problèmes</i><br>
+&gt;<i> &gt;&gt;&gt;    autres:</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt;&gt;&gt; affiliation à l'ADHO? Besoin d'un compte bancaire? etc -</i><br>
+&gt;<i> &gt;&gt;&gt;    plusieurs</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt;&gt;&gt; voix se sont prononcées ouvertement ou de fait pour ce type de</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt;&gt;&gt; structure (faible structure, justement).</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt;&gt;&gt;</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt;&gt;&gt; - Association plus collégiale: cf. regards citoyens. Mes</i><br>
+&gt;<i> &gt;&gt;&gt;    questions</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt;&gt;&gt; sont les mêmes que ci-dessus?</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt;&gt;&gt;</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt;&gt;&gt; - Association de droit plus classique.</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt;&gt;&gt;</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt;&gt;&gt; Je note que l'association devant être francophone, nous pourrons</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt;&gt;&gt; également voir dans quel pays la créer pour profiter du droit</i><br>
+&gt;<i> &gt;&gt;&gt;    le plus</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt;&gt;&gt; adapté pour ses activités. De manière générale, le choix de</i><br>
+&gt;<i> &gt;&gt;&gt;    la forme</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt;&gt;&gt; de cette association peut avoir des répercussions importantes</i><br>
+&gt;<i> &gt;&gt;&gt;    sur les</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt;&gt;&gt; moyens de la future association, ainsi que sur son</i><br>
+&gt;<i> &gt;&gt;&gt;    articulation avec</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt;&gt;&gt; les autres associations, nationales et internationales, sans</i><br>
+&gt;<i> &gt;&gt;&gt;    oublier</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt;&gt;&gt; les grands projets d'infrastructure numériques pour les SHS</i><br>
+&gt;<i> &gt;&gt;&gt;    (DARIAH,</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt;&gt;&gt; CLARIN par exemple). Pour moi, ce point est très important et</i><br>
+&gt;<i> &gt;&gt;&gt;    c'est</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt;&gt;&gt; peut être celui qui justifie la création d'une association</i><br>
+&gt;<i> &gt;&gt;&gt;    formelle</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt;&gt;&gt; avec tout le tra-la-la habituel.</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt;&gt;&gt;</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt;&gt;&gt; Sur le fond, nous étions d'accord pour adopter le manifeste</i><br>
+&gt;<i> &gt;&gt;&gt;    de 2010</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt;&gt;&gt; comme charte. D'autres textes pourraient être pertinents,</i><br>
+&gt;<i> &gt;&gt;&gt;    comme le</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt;&gt;&gt; montre la discussion autour de la déclaration du CLEO sur l'Open</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt;&gt;&gt; Access.</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt;&gt;&gt;</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt;&gt;&gt; De manière générale, le but est de développer une mission</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt;&gt;&gt; d'information, de publication, de développement d'outils,</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt;&gt;&gt; d'organisation de rencontres, de formations, d'échanges de</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt;&gt;&gt; savoirs-faires et de pratiques, etc.</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt;&gt;&gt;</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt;&gt;&gt; Nous ne souhaitons pas restreindre cette association à la</i><br>
+&gt;<i> &gt;&gt;&gt;    défense des</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt;&gt;&gt; intérêts corporatistes. Car les DH sont non seulement</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt;&gt;&gt; interdisciplinaires mais aussi d'&quot;économie mixte&quot;. Certains</i><br>
+&gt;<i> &gt;&gt;&gt;    d'entre</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt;&gt;&gt; nous n'appartiennent pas au secteur public. L'association</i><br>
+&gt;<i> &gt;&gt;&gt;    doit prendre</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt;&gt;&gt; ça en compte.</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt;&gt;&gt;</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt;&gt;&gt; L'articulation de cette association avec les autres </i><br>
+&gt;<i> &gt;&gt;&gt; associations,</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt;&gt;&gt; nationales, européennes et autres est un point à aborder. La</i><br>
+&gt;<i> &gt;&gt;&gt;    forme</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt;&gt;&gt; qu'elle prendra n'est pas encore claire, mais il en faudra</i><br>
+&gt;<i> &gt;&gt;&gt;    une. Pour</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt;&gt;&gt; l'ADHO, il y a plusieurs possibilités: affiliation avec</i><br>
+&gt;<i> &gt;&gt;&gt;    abonnement à</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt;&gt;&gt; la LLC obligatoire / affiliation avec un autre règlement</i><br>
+&gt;<i> &gt;&gt;&gt;    financier /</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt;&gt;&gt; affiliation sans règlement financier mais sans avantages pour </i><br>
+&gt;<i> &gt;&gt;&gt; les</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt;&gt;&gt; membres de l'association francophone / pas d'affiliation.</i><br>
+&gt;<i> &gt;&gt;&gt;    Depuis notre</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt;&gt;&gt; discussion, l'une des associations membres de l'ADHO, l'ALLC</i><br>
+&gt;<i> &gt;&gt;&gt;    s'est</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt;&gt;&gt; plus orientée vers l'Europe. Voulons-nous ouvrir un chapitre</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt;&gt;&gt; francophone de l'ALLC (<a  rel="nofollow" href="http://www.allc.org/">http://www.allc.org/</a>)? Claire Clivaz,</i><br>
+&gt;<i> &gt;&gt;&gt;    Marin</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt;&gt;&gt; Dacos et Marjorie Burghardt pourront peut-être mieux nous</i><br>
+&gt;<i> &gt;&gt;&gt;    renseigner</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt;&gt;&gt; sur ces points.</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt;&gt;&gt;</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt;&gt;&gt; Voilà pour un bilan de nos discussions. Si nous souhaitons</i><br>
+&gt;<i> &gt;&gt;&gt;    avancer à</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt;&gt;&gt; THATCamp Saint-Malo, il faudrait 1. Préparer un atelier, 2.</i><br>
+&gt;<i> &gt;&gt;&gt;    S'assurer</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt;&gt;&gt; que plusieurs pays y sont représentés (et pour ceux qui ne le</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt;&gt;&gt; sauraient pas, je ne représente plus le Luxembourg), 3. préparer</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt;&gt;&gt; peut-êter une première forme d'&quot;institutionalisation&quot; (par</i><br>
+&gt;<i> &gt;&gt;&gt;    exemple,</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt;&gt;&gt; charger un petit groupe représentatif de faire des</i><br>
+&gt;<i> &gt;&gt;&gt;    propositions de</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt;&gt;&gt; statuts, de premières actions?).</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt;&gt;&gt;</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt;&gt;&gt; J'attends vos réactions,</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt;&gt;&gt; Bien à vous,</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt;&gt;&gt; Frédéric Clavert</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt;&gt;&gt;</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt;&gt;&gt; --</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt;&gt;&gt; Docteur en histoire contemporaine</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt;&gt;&gt;&gt;</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt;&gt;&gt;&gt; Hjalmar Schacht, financier et diplomate</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt;&gt;&gt;&gt; Les banquiers centraux dans la construction européenne</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt;&gt;&gt;&gt; L'histoire et le numérique</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt;&gt;&gt;</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt;&gt;&gt;</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt;&gt;</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt;&gt; --</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt;&gt; Stéphane POUYLLAU</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt;&gt; Ingénieur de recherche au CNRS.</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt;&gt;</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt;&gt; Directeur-adjoint technique d'Huma-Num,</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt;&gt; Très grande infrastructure pour les humanités numériques.</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt;&gt;</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt;&gt; Créateur du CN2SV, co-créateur de MédiHAL et d'Isidore,</i><br>
+&gt;<i> &gt;&gt;&gt;    l'accès unifié</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt;&gt; aux données numériques des SHS (<a  rel="nofollow" href="http://www.rechercheisidore.fr/">http://www.rechercheisidore.fr</a></i><br>
+&gt;<i> &gt;&gt;&gt;    &lt;<a  rel="nofollow" href="http://www.rechercheisidore.fr/">http://www.rechercheisidore.fr/</a>&gt;)</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt;&gt;</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt;&gt; UMS 3598 Huma-Num</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt;&gt; 4, rue Lhomond, 75005 Paris</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt;&gt; W. <a  rel="nofollow" href="http://www.huma-num.fr/">http://www.huma-num.fr</a> &lt;<a  rel="nofollow" href="http://www.huma-num.fr/">http://www.huma-num.fr/</a>&gt;</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt;&gt; Em. </i><br>
+&gt;<i> &gt;&gt;&gt; 
+ <script type="text/javascript">
+ <!-- 
+ document.write("stephane.pouyllau" + "@" + "huma-num.fr")
+ // -->
+ </script></i><br>
+&gt;<i> &gt;&gt;&gt;    </i><br>
+&gt;<i> &gt;&gt;&gt; &lt;mailto:
+ <script type="text/javascript">
+ <!-- 
+ document.write("stephane.pouyllau" + "@" + "huma-num.fr")
+ // -->
+ </script>&gt;</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt;&gt; Tél. 01 55 42 83 11</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt;&gt; Blog personnel. <a  rel="nofollow" href="http://blog.stephanepouyllau.org/">http://blog.stephanepouyllau.org</a></i><br>
+&gt;<i> &gt;&gt;&gt;    &lt;<a  rel="nofollow" href="http://blog.stephanepouyllau.org/">http://blog.stephanepouyllau.org/</a>&gt;</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt;&gt; Twitter. @spouyllau</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt;</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;&gt;</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt; --</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt; Marin Dacos - <a  rel="nofollow" href="http://www.openedition.org/">http://www.openedition.org</a></i><br>
+&gt;<i> &gt;&gt;&gt;    &lt;<a  rel="nofollow" href="http://www.openedition.org/">http://www.openedition.org/</a>&gt;</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt; Director - Centre for Open Electronic Publishing - CNRS - EHESS -</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt; Aix-Marseille Université (AMU) - Université d'Avignon</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt; OpenEdition is now a Facility of Excellence (Equipex)</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt; Nouvelle adresse postale :</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt; OpenEdition - 38 Rue Frédéric Joliot Curie - F - 13013 Marseille</i><br>
+&gt;<i> &gt;&gt;&gt;    Cedex 20</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt; Tél : 04 13 55 03 40 Tél. direct : 04 13 55 03 39 Fax : 04 13 55</i><br>
+&gt;<i> &gt;&gt;&gt;    03 41</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt;</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt; Skype : marin.dacos - Google hangout :</i><br>
+&gt;<i> &gt;&gt;&gt;    </i><br>
+&gt;<i> &gt;&gt;&gt; 
+ <script type="text/javascript">
+ <!-- 
+ document.write("marin.dacos" + "@" + "openedition.org")
+ // -->
+ </script></i><br>
+&gt;<i> &gt;&gt;&gt;  </i><br>
+&gt;<i> &gt;&gt;&gt; &lt;mailto:
+ <script type="text/javascript">
+ <!-- 
+ document.write("marin.dacos" + "@" + "openedition.org")
+ // -->
+ </script>&gt;</i><br>
+&gt;<i> &gt;&gt;&gt;    &gt; Twitter [FR] : <a  rel="nofollow" href="http://twitter.com/marindacos">http://twitter.com/marindacos</a></i><br>
+&gt;<i> &gt;&gt;&gt;    &gt; Twitter [EN] : <a  rel="nofollow" href="http://twitter.com/openmarin">http://twitter.com/openmarin</a></i><br>
+&gt;<i> &gt;&gt;&gt; </i><br>
+&gt;<i> &gt;&gt;&gt; </i><br>
+&gt;<i> &gt;&gt;&gt; </i><br>
+&gt;<i> &gt;&gt;&gt;    --</i><br>
+&gt;<i> &gt;&gt;&gt;    Docteur en histoire contemporaine - <a  rel="nofollow" href="http://www.clavert.net/">http://www.clavert.net/</a></i><br>
+&gt;<i> &gt;&gt;&gt;    &gt; Hjalmar Schacht, financier et diplomate -</i><br>
+&gt;<i> &gt;&gt;&gt;    </i><br>
+&gt;<i> &gt;&gt;&gt; <a  rel="nofollow" href="http://www.clavert.net/hjalmar-schacht-financier-et-diplomate-peter-lang/">http://www.clavert.net/hjalmar-schacht-financier-et-diplomate-peter-lang/</a></i><br>
+&gt;<i> &gt;&gt;&gt;    &gt; Les banquiers centraux dans la construction européenne -</i><br>
+&gt;<i> &gt;&gt;&gt;    <a  rel="nofollow" href="http://www.cairn.info/resume.php?ID_ARTICLE=HES_114_0003">http://www.cairn.info/resume.php?ID_ARTICLE=HES_114_0003</a></i><br>
+&gt;<i> &gt;&gt;&gt;    &gt; L'histoire contemporaine à l'ère numérique -</i><br>
+&gt;<i> &gt;&gt;&gt;    </i><br>
+&gt;<i> &gt;&gt;&gt; <a  rel="nofollow" href="http://www.clavert.net/lecture-des-sources-historiennes-a-lere-numerique/">http://www.clavert.net/lecture-des-sources-historiennes-a-lere-numerique/</a></i><br>
+&gt;<i> &gt;&gt;&gt; </i><br>
+&gt;<i> &gt;&gt;&gt; </i><br>
+&gt;<i> &gt;&gt; </i><br>
+&gt;<i> &gt; </i><br>
+&gt;<i> &gt; -- </i><br>
+&gt;<i> &gt; Stéphane POUYLLAU</i><br>
+&gt;<i> &gt; Ingénieur de recherche au CNRS.</i><br>
+&gt;<i> &gt; </i><br>
+&gt;<i> &gt; Directeur-adjoint technique d'Huma-Num,</i><br>
+&gt;<i> &gt; Très grande infrastructure pour les humanités numériques.</i><br>
+&gt;<i> &gt; </i><br>
+&gt;<i> &gt; Créateur du CN2SV, co-créateur de MédiHAL et d'Isidore, l'accès unifié </i><br>
+&gt;<i> &gt; aux données numériques des SHS (<a  rel="nofollow" href="http://www.rechercheisidore.fr/">http://www.rechercheisidore.fr</a>)</i><br>
+&gt;<i> &gt; </i><br>
+&gt;<i> &gt; UMS 3598 Huma-Num</i><br>
+&gt;<i> &gt; 4, rue Lhomond, 75005 Paris</i><br>
+&gt;<i> &gt; W. <a  rel="nofollow" href="http://www.huma-num.fr/">http://www.huma-num.fr</a></i><br>
+&gt;<i> &gt; Em. </i><br>
+&gt;<i> &gt; 
+ <script type="text/javascript">
+ <!-- 
+ document.write("stephane.pouyllau" + "@" + "huma-num.fr")
+ // -->
+ </script></i><br>
+&gt;<i> &gt; Tél. 01 55 42 83 11</i><br>
+&gt;<i> &gt; Blog personnel. <a  rel="nofollow" href="http://blog.stephanepouyllau.org/">http://blog.stephanepouyllau.org</a></i><br>
+&gt;<i> &gt; Twitter. @spouyllau</i><br>
+&gt;<i> </i><br>
+<br>
+
+<!--X-Body-of-Message-End-->
+<!--X-MsgBody-End-->
+<!--X-Follow-Ups-->
+<br clear="all" />
+<hr size="1" noshade>
+<UL>
+<li><strong>Re: [DH] THATCamp Saint-Malo - Association francophone des Digital humanities</strong>, <em>(continued)</em>
+<ul>
+<ul>
+<ul>
+<li><b><a name="00013" href="msg00013.html">Re: [DH] THATCamp Saint-Malo - Association francophone des Digital humanities</a></b>, <em>Marin Dacos, 07/08/2013</em>
+<ul>
+<li><b><a name="00014" href="msg00014.html">Re: [DH] THATCamp Saint-Malo - Association francophone des Digital humanities</a></b>, <em>Frédéric Clavert, 07/08/2013</em>
+<ul>
+<li><b><a name="00016" href="msg00016.html">Re: [DH] THATCamp Saint-Malo - Association francophone des Digital humanities</a></b>, <em>Pierre Mounier, 07/09/2013</em>
+<ul>
+<li><b><a name="00017" href="msg00017.html">Re: [DH] THATCamp Saint-Malo - Association francophone des Digital humanities</a></b>, <em>Claire Clivaz, 07/09/2013</em>
+<ul>
+<li><b><a name="00020" href="msg00020.html">Re: [DH] THATCamp Saint-Malo - Association francophone des Digital humanities</a></b>, <em>Pierre Mounier, 07/12/2013</em>
+<li><b><a name="00021" href="msg00021.html">Re: [DH] THATCamp Saint-Malo - Association francophone des Digital humanities</a></b>, <em>Olivier Le Deuff, 07/12/2013</em>
+<li><b><a name="00022" href="msg00022.html">Re: [DH] THATCamp Saint-Malo - Association francophone des Digital humanities</a></b>, <em>Stéphane Pouyllau, 07/12/2013</em>
+</li>
+</li>
+</li>
+<li><b><a name="00023" href="msg00023.html">Re: [DH] THATCamp Saint-Malo - Association francophone des Digital humanities</a></b>, <em>Stéphane Pouyllau, 07/12/2013</em>
+<li><b><a name="00024" href="msg00024.html">Re: [DH] THATCamp Saint-Malo - Association francophone des Digital humanities</a></b>, <em>antoine Courtin, 07/12/2013</em>
+<li><b><a name="00027" href="msg00027.html">Re: [DH] THATCamp Saint-Malo - Association francophone des Digital humanities</a></b>, <em>Paul Girard, 07/15/2013</em>
+</li>
+<LI><STRONG>Re: [DH] THATCamp Saint-Malo - Association francophone des Digital humanities</STRONG>, <EM>Nicolas Legrand, 07/15/2013</EM>
+<li><b><a name="00028" href="msg00028.html">Re: [DH] THATCamp Saint-Malo - Association francophone des Digital humanities</a></b>, <em>Frédéric Clavert, 07/16/2013</em>
+</li>
+</li>
+</li>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</ul>
+</ul>
+</li>
+</UL>
+
+<!--X-Follow-Ups-End-->
+<!--X-References-->
+<!--X-References-End-->
+<!--X-BotPNI-->
+
+
+<!--X-BotPNI-End-->
+<!--X-User-Footer-->
+<!--X-User-Footer-End-->
+<hr size="1" noshade>
+<p><font size="-1">
+Archive powered by <a href="http://www.mhonarc.org/">MHonArc 2.6.16</a>.
+</font></p>
+
+
+
+
+</div>
+<!-- end of part generated by mhonarc -->
+<!-- end arc.tt2 -->
+
+
+ 
+
+        
+        </main><!-- End content-inner -->
+    
+
+<div class="scroll-top-wrapper ">
+	<span class="scroll-top-inner">
+		<i class="fa fa-2x fa-arrow-circle-up"></i>
+	</span>
+</div>
+
+    <div id='feedbackContainer' class='reveal-modal small' data-reveal data-reveal="">
+        <h2 class='text-center'>
+            <i class='fa fa-info-circle '> 
+                <span>
+                    Universalistes evolves!
+                </span>
+            </i>
+        </h2>
+        <p>
+            The RENATER services are constantly evolving.
+        </p>
+        <p>
+            To improve our offer, and give you a simpler and faster use of these services, we need your feedback about their usability, ergonomics.
+        </p>
+        <p>
+            So help us giving us your comments, suggestions for improvement or your wishes for new features.
+        </p> 
+        <p>
+            To do so contact use using <a href="https://feedback.renater.fr/?service=Universalistes" target='_blank'>our user feedback form</a> to detail your wishes and observations.
+        </p>
+        <hr/>
+        <span class='text-right'>
+            <label for='stop_show_feedback'>
+                <input type='checkbox' name='stop_show_feedback' id='stop_show_feedback' />
+                &nbsp; Do not show this popup again
+            </label>
+        </span>
+        <br/>
+    <a class='close-reveal-modal'>&#215;</a>
+    </div>
+
+<!-- $Id: footer.tt2 11846 2015-01-15 04:15:17Z sikeda $ -->
+
+<section class="footer">
+</section>
+
+<footer>
+    <article class="row">
+        <ul class="medium-block-grid-3 ">
+            <li>
+                <ul>
+                    <li>
+						<img src="../../../../static-sympa/icons/groupes.renater.fr/logo_renater_blanc.png" />
+					</li>
+                    <li>Réseau National de télécommunications pour la Technologie l’Enseignement et la Recherche.</li>
+                    <li>
+						<a href="https://www.renater.fr/" target="_blank">
+							<img src="../../../../static-sympa/icons/groupes.renater.fr/renater_france_square.png" />
+						</a>
+						 <a href="https://www.facebook.com/gip.renater" target="_blank">
+							<i class="fa fa-facebook-square"></i>
+						</a>
+						 <a href="https://twitter.com/RENATERnews" target="_blank">
+							<i class="fa fa-twitter-square"></i>
+						</a> 
+					</li>
+                </ul>
+            </li>
+            <li>
+                <ul >
+                    <li><h2>Resources</h2></li>
+                    <li>Lists
+                        <ul>
+                            <li><a href="https://groupes.renater.fr/sympa/search_list_request" target="">Search form</a>
+                            <li><a href="https://groupes.renater.fr/sympa/lists" target="">Index of lists</a>
+                            <li><a href="https://groupes.renater.fr/sympa/lists_categories" target="">Browse lists by categories</a>
+                        </ul>
+                    </li>
+                    <li>Documentation
+                        <ul>
+                            <li><a href="https://groupes.renater.fr/sympa/help/introduction" target="">General introduction</a>
+                            <li><a href="https://groupes.renater.fr/sympa/help/user" target="">User guide</a>
+                            <li><a href="https://groupes.renater.fr/sympa/help/admin" target="">Administrator guide</a>
+                        </ul>
+                    </li>
+                    <li>FAQ
+                        <ul>
+                            <li><a href="https://services.renater.fr/groupware/universalistes/faq" target="_blank">User FAQ</a>
+                            <li><a href="https://groupes.renater.fr/sympa/help/faqadmin" target="">Administrators FAQ</a>
+                        </ul>                    
+                    </li>
+                </ul> 
+            </li>
+            <li>
+                <ul>
+                    <li><h2>Contact us</h2></li>
+                    <li><i class="fi-marker"></i>23-25, rue Daviel - 75013 PARIS</li>                    
+                    <li><i class="fa fa-comments"></i><a href="https://feedback.renater.fr/?service=Universalistes" target="_BLANCK" data-tooltip aria-haspopup="true" title="Give us feedback about this new Universalistes version">Feedback</a></li>
+              </ul>
+
+            </li>
+        </ul>
+
+
+    </article>
+</footer>
+<aside class="row footer-copyright">
+    <ul>
+        <li class="small-12 medium-6 columns">© 2015 RENATER - All rights reserved</li>
+        <li class="small-12 medium-6 columns text-right"><img src="../../../../static-sympa/icons/favicon_sympa.png" alt="SYMPA logo" width="20" height="20"/> <a href="http://www.sympa.org/"> Powered by Sympa 6.2.13</a></li>
+    </ul>
+</aside>
+
+<!-- end footer.tt2 -->
+
+
+
+</body>
+
+<!-- end main.tt2 -->
+
+<!-- Mirrored from groupes.renater.fr/sympa/arc/dh/2013-07/msg00026.html by HTTraQt Website Copier/1.x [Karbofos 2012-2017] jeu., 29 mars 2018 22:47:19 GMT -->
+</html>
