@@ -1,0 +1,140 @@
+Exemple de sortie ZC
+
+./DHFRsample/2011-07/msg00000.html 
+##
+##FROM/TO DETECTED, i=  10
+##<ul>
+##<li><strong>From</strong>: Maud Ingarao &lt;
+## <script type="text/javascript">
+## <!-- 
+## document.write("maud.ingarao" + "@" + "ens-lyon.fr")
+## // -->
+## </script>&gt;</li>
+##<li><strong>To</strong>: Torsten Schassan &lt;
+## <script type="text/javascript">
+## <!-- 
+## document.write("schassan" + "@" + "hab.de")
+## // -->
+## </script>&gt;,        Christof Schöch &lt;
+## <script type="text/javascript">
+## <!-- 
+## document.write("c.schoech" + "@" + "gmail.com")
+## // -->
+## </script>&gt;</li>
+##<li><strong>Subject</strong>: [DH] Un petit tour d'Allemagne des digital humanities  - 2 : Interview de Torsten Schaßan</li>
+##<li><strong>Date</strong>: Thu, 7 Jul 2011 15:59:17 +0200</li>
+##</ul>
+##
+##./DHFRsample/2011-07/msg00005.html 
+##
+##FROM/TO DETECTED, i=  10
+##<ul>
+##<li><strong>From</strong>: "Noiret, Serge" &lt;
+## <script type="text/javascript">
+## <!-- 
+## document.write("Serge.Noiret" + "@" + "EUI.eu")
+## // -->
+## </script>&gt;</li>
+##<li><strong>To</strong>: "
+## <script type="text/javascript">
+## <!-- 
+## document.write("DH" + "@" + "cru.fr")
+## // -->
+## </script>" &lt;
+## <script type="text/javascript">
+## <!-- 
+## document.write("DH" + "@" + "cru.fr")
+## // -->
+## </script>&gt;</li>
+##<li><strong>Subject</strong>: [DH] RE: Les Historiens et l'Informatique, u n métier à réinventer, actes du colloque de Rome</li>
+##<li><strong>Date</strong>: Tue, 19 Jul 2011 08:04:41 -0700</li>
+##<li><strong>Accept-language</strong>: fr-FR, en-US</li>
+##<li><strong>Acceptlanguage</strong>: fr-FR, en-US</li>
+##</ul>
+##
+##./DHFRsample/2011-07/msg00003.html 
+##
+##FROM/TO DETECTED, i=  10
+##<ul>
+##<li><strong>From</strong>: "Noiret, Serge" &lt;
+## <script type="text/javascript">
+## <!-- 
+## document.write("Serge.Noiret" + "@" + "EUI.eu")
+## // -->
+## </script>&gt;</li>
+##<li><strong>To</strong>: "'M L'" &lt;
+## <script type="text/javascript">
+## <!-- 
+## document.write("marionlame" + "@" + "gmail.com")
+## // -->
+## </script>&gt;,        "
+## <script type="text/javascript">
+## <!-- 
+## document.write("marin.dacos" + "@" + "revues.org")
+## // -->
+## </script>"	&lt;
+## <script type="text/javascript">
+## <!-- 
+## document.write("marin.dacos" + "@" + "revues.org")
+## // -->
+## </script>&gt;</li>
+##<li><strong>Cc</strong>: dh &lt;
+## <script type="text/javascript">
+## <!-- 
+## document.write("dh" + "@" + "cru.fr")
+## // -->
+## </script>&gt;</li>
+##<li><strong>Subject</strong>: RE: [DH] Consultation de l'Union européenne su r le numérique</li>
+##<li><strong>Date</strong>: Mon, 18 Jul 2011 02:06:06 -0700</li>
+##<li><strong>Accept-language</strong>: fr-FR, en-US</li>
+##<li><strong>Acceptlanguage</strong>: fr-FR, en-US</li>
+##</ul>
+##CC DETECTED, i=  10
+##
+##./DHFRsample/2011-07/msg00001.html 
+##
+##FROM/TO DETECTED, i=  10
+##<ul>
+##<li><strong>From</strong>: Marin Dacos &lt;
+## <script type="text/javascript">
+## <!-- 
+## document.write("marin.dacos" + "@" + "revues.org")
+## // -->
+## </script>&gt;</li>
+##<li><strong>To</strong>: dh &lt;
+## <script type="text/javascript">
+## <!-- 
+## document.write("dh" + "@" + "cru.fr")
+## // -->
+## </script>&gt;</li>
+##<li><strong>Subject</strong>: [DH] Consultation de l'Union européenne sur le  numérique</li>
+##<li><strong>Date</strong>: Sat, 16 Jul 2011 14:58:47 +0200</li>
+##</ul>
+##
+##./DHFRsample/2011-07/msg00004.html 
+##
+##FROM/TO DETECTED, i=  10
+##<ul>
+##<li><strong>From</strong>: Laetitia Bontemps &lt;
+## <script type="text/javascript">
+## <!-- 
+## document.write("laetitia.bontemps" + "@" + "univ-tours.fr")
+## // -->
+## </script>&gt;</li>
+##<li><strong>To</strong>: "
+## <script type="text/javascript">
+## <!-- 
+## document.write("DH" + "@" + "cru.fr")
+## // -->
+## </script>" &lt;
+## <script type="text/javascript">
+## <!-- 
+## document.write("DH" + "@" + "cru.fr")
+## // -->
+## </script>&gt;</li>
+##<li><strong>Subject</strong>: [DH] Stage initiation XML-TEI (Tours, octobre 2011)</li>
+##<li><strong>Date</strong>: Tue, 19 Jul 2011 15:04:42 +0100 (BST)</li>
+##</ul>
+##
+##
+##
